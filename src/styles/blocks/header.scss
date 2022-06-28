@@ -11,19 +11,7 @@
       font-size: 1.2rem;
     }
   }
-  &__top {
-    display: flex;
-    height: 60px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    & span {
-      font-size: 1.4rem;
-      @media only screen and (max-width:479.9px) {
-        font-size: 1.2rem;
-      }
-    }
-  }
+
   &__logo {
     position: relative;
     z-index: 5;
@@ -45,17 +33,11 @@
       padding: 15px 0;
     }
     &_blue {
-      background-color: #0d6efd;
-    }
-    &_red {
-      background-color: var(--color-red);
+      background-color: var(--color-blue);
     }
   }
   &__search {
-    width: 34%;
-    @media only screen and (max-width:1199.9px) {
-      width: 100%;
-    }
+    width: 100%;
     & .form-control {
       margin-right: 15px;
     }
@@ -80,9 +62,7 @@
     }
   }
   &__nav-wrap {
-    height: 60px;
-
-
+    height: 80px;
     @media only screen and (max-width:1199.9px) {
       height: unset;
     }
@@ -212,8 +192,8 @@
 
     &-menu {
       position: absolute;
-      background: #fff0f0;
-      border-top: 3px solid var(--color-dark);
+      background: white;
+      border-top: 3px solid $colorOrange;
       top: 100%;
       left: 0;
       right: 0;
@@ -283,7 +263,7 @@
         & svg {
           width: 29px;
           height: 29px;
-          fill: var(--color-red);
+          fill: var(--color-blue);
         }
         & .image {
           @media only screen and (min-width:1200px) {
@@ -306,10 +286,9 @@
         //background: $colorBlue;
         & a {
           color: gray;
-          background-color: #ffe0e0;
         }
         & svg {
-          fill: #AA3333;
+          fill: var(--color-orange);
         }
       }
     }
@@ -367,15 +346,12 @@
       }
 
       &>a {
-
+        color: gray;
         display: flex;
         align-items: center;
         align-self: stretch;
         padding-left: 1rem;
         padding-right: 1rem;
-        @media only screen and (min-width:1199.99px) {
-          color: white;
-        }
         @media only screen and (max-width:1399.99px) {
           padding-left: 0;
           padding-right: 0;
@@ -388,11 +364,10 @@
           padding: 8px 20px;
           text-transform: uppercase;
           font-family: $fontMedium;
-          color: var(--color-gray);
         }
         &:hover {
           position: relative;
-          color: var(--color-dark);
+          color: var(--color-orange);
 
 
           @media only screen and (min-width:1200px) {
@@ -403,7 +378,7 @@
               left: 0;
               width: 100%;
               height: 3px;
-              background-color: var(--color-dark);
+              background-color: $colorOrange;
             }
           }
         }
@@ -411,10 +386,8 @@
       &.active {
         &> a {
           position: relative;
-          color: var(--color-dark);
-          background-color: var(--color-red-darken);
+          color: var(--color-orange);
           @media only screen and (min-width:1200px) {
-
             &:before {
               content: '';
               position: absolute;
@@ -422,7 +395,7 @@
               left: 0;
               width: 100%;
               height: 3px;
-              background-color: var(--color-dark);
+              background-color: $colorOrange;
             }
           }
 

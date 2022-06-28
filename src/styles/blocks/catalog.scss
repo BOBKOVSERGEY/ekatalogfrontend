@@ -5,7 +5,7 @@
     &-icon {
       margin-right: 10px;
       & svg {
-        fill: var(--color-red);
+        fill: var(--color-blue);
       }
     }
     &-category {
@@ -17,7 +17,7 @@
         display: block;
         margin-bottom: 5px;
         &:hover {
-          color: var(--color-red);
+          color: var(--color-orange);
         }
 
       }
@@ -27,7 +27,7 @@
           color: #555;
           font-size: 1.2rem;
           &:hover {
-            color: var(--color-red);
+            color: var(--color-orange);
           }
         }
       }
