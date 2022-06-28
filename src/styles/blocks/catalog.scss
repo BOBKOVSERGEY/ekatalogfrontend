@@ -1,0 +1,36 @@
+.catalog {
+  &__item {
+    margin-bottom: 30px;
+    display: flex;
+    &-icon {
+      margin-right: 10px;
+      & svg {
+        fill: var(--color-red);
+      }
+    }
+    &-category {
+      line-height: 1;
+
+      &-main {
+        font-size: 2.1rem;
+          color: var(--color-blue);
+        display: block;
+        margin-bottom: 5px;
+        &:hover {
+          color: var(--color-red);
+        }
+
+      }
+      &-sub {
+
+        & a {
+          color: #555;
+          font-size: 1.2rem;
+          &:hover {
+            color: var(--color-red);
+          }
+        }
+      }
+    }
+  }
+}

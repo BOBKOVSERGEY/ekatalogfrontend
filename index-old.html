@@ -1,0 +1,1958 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="dist/css/main.css?v=14.0.0">
+    <link rel="preload" href="dist/fonts/Roboto/RobotoLight.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="dist/fonts/Roboto/RobotoRegular.woff" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="dist/fonts/Roboto/RobotoMedium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="dist/fonts/Roboto/RobotoBold.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Favicons
+    <link rel="apple-touch-icon" href="dist/images/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="dist/images/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="dist/images/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="mask-icon" href="dist/images/safari-pinned-tab.svg" color="#003982">-->
+    <link rel="icon" href="dist/images/favicon.ico">
+    <meta name="theme-color" content="#003982">
+    <title>Е каталог</title>
+</head>
+<body class="preload">
+    <div class="header">
+        <div class="s-width">
+            <div class="header_block">
+                <div class="header_logo"><a class="logo logo-us" href="https://e-catalog.com/" title="E-Katalog"></a></div>
+                <div class="header_search">
+                    <form id="ek-search-form" action="/ek-list.php">
+                        <div class="header_search_text">
+                            <div>
+                                <div class="header_search_input"><input id="ek-search" type="search" name="search_" value=""
+                                                                        placeholder="Product search" autocomplete="off"
+                                                                        required="" autofocus="" jtype="change"
+                                                                        jtarget="ek-search_div"
+                                                                        jsource="https://e-catalog.com/mtools/mui_qs3.php?input_dom_id_=ek-search"
+                                                                        jwait="250">
+                                    <div id="ek-search__loader" style="display: none;"></div>
+                                    <div id="ek-search__clear" style="display: none;"></div>
+                                    <div id="ek-search__res-wrap">
+                                        <div id="ek-search_div" class="quick-search-div"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header_search_btn-submit">
+                            <button name="search_but_">Search</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="header_action">
+                    <div class="header_lang"></div>
+                    <div class="header_action_change-city">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 25">
+                            <path d="M9.5 0a9.63 9.63 0 0 0-7.37 15.67L8 24.19a1.85 1.85 0 0 0 1.51.81 1.8 1.8 0 0 0 1.49-.82l5.89-8.58a13 13 0 0 0 .75-1.09 1 1 0 0 0 .12-.23A9.63 9.63 0 0 0 9.5 0Zm0 14.51a5 5 0 1 1 4.95-5 5 5 0 0 1-4.95 5Z"></path>
+                        </svg>
+                        <div class="cr-contr">
+                            <div class="ib h"
+                                 jsource="https://e-catalog.com/mtools/mui_choose_region.php?target_n_=h3heh41mg7t&amp;refresh_=1&amp;url_=%2F"
+                                 jtype="click" jid="h3heh41mg7t" jjs="$('#msg_reg_confirm').hide()" jsub="Y" jwidth="350px"
+                                 jstyle="white" jcontainer="body"><em id="h3heh41mg7t">Fremont</em></div>
+                        </div>
+                    </div>
+                    <div class="header_action_login" id="mui_user_login_row">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+                            <ellipse cx="12.5" cy="6.31" rx="6.28" ry="6.31"></ellipse>
+                            <path d="M25 22.78a3.23 3.23 0 0 0-.6-1.9c-1.26-1.75-4.71-5.3-11.84-5.35h-.12c-7.13.05-10.58 3.6-11.84 5.35a3.23 3.23 0 0 0-.6 1.9V24a1 1 0 0 0 1 1h23a1 1 0 0 0 1-1Z"></path>
+                        </svg>
+                        <span class="wu_entr" jtype="click"
+                              jsource="https://e-catalog.com/mtools/ek_mui_login.php?uri_=self&amp;soc_resopnce_=mui_user_login_window"
+                              jtarget="@modal" jid="mui_user_login_window" jwidth="550px"><em>Log in</em></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mainmenu">
+        <div class="s-width">
+            <ul class="mainmenu-list">
+                <li class="mainmenu-item"><a class='mainmenu-link cancel-click mainmenu-link-first ' href='/k119.htm'>Гаджеты<span
+                        class="mainmenu-link-helper"></span></a>
+                    <div class="mainmenu-subwrap">
+                        <div class="mainmenu-sublist"><a class='mainmenu-subitem' href='/k122.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k122'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k122'></use></svg></span><span
+                                class="text">Мобильные</span></a><a
+                                class='mainmenu-subitem' href='/k447.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k447'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k447'></use></svg></span><span
+                                class="text">Чехлы</span></a><a
+                                class='mainmenu-subitem' href='/k239.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k239'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k239'></use></svg></span><span
+                                class="text">Наушники</span></a><a
+                                class='mainmenu-subitem' href='/k745.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k745'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k745'></use></svg></span><span
+                                class="text">Умные часы и браслеты</span></a><a
+                                class='mainmenu-subitem' href='/k699.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k699'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k699'></use></svg></span><span
+                                class="text">Powerbank </span></a><a
+                                class='mainmenu-subitem' href='/k41.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k41'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k41'></use></svg></span><span
+                                class="text">Портативные колонки</span></a><a
+                                class='mainmenu-subitem' href='/k695.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k695'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k695'></use></svg></span><span
+                                class="text">Action камеры</span></a><a
+                                class='mainmenu-subitem' href='/k943.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k943'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k943'></use></svg></span><span
+                                class="text">Квадрокоптеры</span></a><a
+                                class='mainmenu-subitem' href='/k32.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k32'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k32'></use></svg></span><span
+                                class="text">Карты памяти</span></a><a
+                                class='mainmenu-subitem' href='/k119.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-more'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_more'></use></svg></span><span
+                                class="text">Все разделы</span></a>
+                        </div>
+                        <span class="mainmenu-arrow"><svg class="mainmenu-icon mainmenu-icon-right"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_right"></use></svg><svg
+                                class="mainmenu-icon mainmenu-icon-left"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_left"></use></svg></span></div>
+                </li>
+                <li class="mainmenu-item"><a class='mainmenu-link cancel-click  ' href='/k169.htm'>Компьютеры<span
+                        class="mainmenu-link-helper"></span></a>
+                    <div class="mainmenu-subwrap">
+                        <div class="mainmenu-sublist"><a class='mainmenu-subitem' href='/k298.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k298'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k298'></use></svg></span><span
+                                class="text">Ноутбуки</span></a><a
+                                class='mainmenu-subitem' href='/k30.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k30'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k30'></use></svg></span><span
+                                class="text">Планшеты</span></a><a
+                                class='mainmenu-subitem' href='/k33.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k33'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k33'></use></svg></span><span
+                                class="text">Приставки</span></a><a
+                                class='mainmenu-subitem' href='/k157.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k157'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k157'></use></svg></span><span
+                                class="text">Мониторы</span></a><a
+                                class='mainmenu-subitem' href='/k170.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k170'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k170'></use></svg></span><span
+                                class="text">ПК</span></a><a class='mainmenu-subitem' href='/k173.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k173'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k173'></use></svg></span><span
+                                class="text">Комплектующие</span></a><a
+                                class='mainmenu-subitem' href='/k527.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k527'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k527'></use></svg></span><span
+                                class="text">Печать</span></a><a
+                                class='mainmenu-subitem' href='/k398.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k398'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k398'></use></svg></span><span
+                                class="text">Расходники</span></a><a
+                                class='mainmenu-subitem' href='/k248.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k248'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k248'></use></svg></span><span
+                                class="text">Wi-Fi</span></a><a
+                                class='mainmenu-subitem' href='/k304.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k304'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k304'></use></svg></span><span
+                                class="text">Клавиатуры и мышки</span></a><a
+                                class='mainmenu-subitem' href='/k169.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-more'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_more'></use></svg></span><span
+                                class="text">Все разделы</span></a>
+                        </div>
+                        <span class="mainmenu-arrow"><svg class="mainmenu-icon mainmenu-icon-right"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_right"></use></svg><svg
+                                class="mainmenu-icon mainmenu-icon-left"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_left"></use></svg></span></div>
+                </li>
+                <li class="mainmenu-item"><a class='mainmenu-link cancel-click  ' href='/k204.htm'>Фото<span
+                        class="mainmenu-link-helper"></span></a>
+                    <div class="mainmenu-subwrap">
+                        <div class="mainmenu-sublist"><a class='mainmenu-subitem' href='/k206.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k206'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k206'></use></svg></span><span
+                                class="text">Фотоаппараты</span></a><a
+                                class='mainmenu-subitem' href='/k265.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k265'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k265'></use></svg></span><span
+                                class="text">Объективы</span></a><a
+                                class='mainmenu-subitem' href='/k266.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k266'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k266'></use></svg></span><span
+                                class="text">Вспышки</span></a><a
+                                class='mainmenu-subitem' href='/k695.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k695'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k695'></use></svg></span><span
+                                class="text">Action камеры</span></a><a
+                                class='mainmenu-subitem' href='/k32.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k32'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k32'></use></svg></span><span
+                                class="text">Карты памяти</span></a><a
+                                class='mainmenu-subitem' href='/k236.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k236'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k236'></use></svg></span><span
+                                class="text">Штативы</span></a><a
+                                class='mainmenu-subitem' href='/k1299.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k1299'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k1299'></use></svg></span><span
+                                class="text">Стедикамы</span></a><a
+                                class='mainmenu-subitem' href='/k325.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k325'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k325'></use></svg></span><span
+                                class="text">Аккумуляторы</span></a><a
+                                class='mainmenu-subitem' href='/k316.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k316'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k316'></use></svg></span><span
+                                class="text">Cтудийный свет</span></a><a
+                                class='mainmenu-subitem' href='/k204.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-more'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_more'></use></svg></span><span
+                                class="text">Все разделы</span></a>
+                        </div>
+                        <span class="mainmenu-arrow"><svg class="mainmenu-icon mainmenu-icon-right"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_right"></use></svg><svg
+                                class="mainmenu-icon mainmenu-icon-left"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_left"></use></svg></span></div>
+                </li>
+                <li class="mainmenu-item"><a class='mainmenu-link cancel-click  ' href='/k123.htm'>&nbsp;TV&nbsp;<span
+                        class="mainmenu-link-helper"></span></a>
+                    <div class="mainmenu-subwrap">
+                        <div class="mainmenu-sublist"><a class='mainmenu-subitem' href='/k160.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k160'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k160'></use></svg></span><span
+                                class="text">Телевизоры</span></a><a
+                                class='mainmenu-subitem' href='/k157.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k157'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k157'></use></svg></span><span
+                                class="text">Мониторы</span></a><a
+                                class='mainmenu-subitem' href='/k264.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k264'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k264'></use></svg></span><span
+                                class="text">Крепления и тумбы</span></a><a
+                                class='mainmenu-subitem' href='/k315.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k315'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k315'></use></svg></span><span
+                                class="text">Медиаплееры</span></a><a
+                                class='mainmenu-subitem' href='/k214.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k214'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k214'></use></svg></span><span
+                                class="text">Проекторы</span></a><a
+                                class='mainmenu-subitem' href='/k33.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k33'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k33'></use></svg></span><span
+                                class="text">Приставки</span></a><a
+                                class='mainmenu-subitem' href='/k1226.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k1226'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k1226'></use></svg></span><span
+                                class="text">VR очки</span></a><a
+                                class='mainmenu-subitem' href='/k85.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k85'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k85'></use></svg></span><span
+                                class="text">Кабели</span></a><a
+                                class='mainmenu-subitem' href='/k123.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-more'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_more'></use></svg></span><span
+                                class="text">Все разделы</span></a>
+                        </div>
+                        <span class="mainmenu-arrow"><svg class="mainmenu-icon mainmenu-icon-right"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_right"></use></svg><svg
+                                class="mainmenu-icon mainmenu-icon-left"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_left"></use></svg></span></div>
+                </li>
+                <li class="mainmenu-item"><a class='mainmenu-link cancel-click  ' href='/k10.htm'>Аудио<span
+                        class="mainmenu-link-helper"></span></a>
+                    <div class="mainmenu-subwrap">
+                        <div class="mainmenu-sublist"><a class='mainmenu-subitem' href='/k239.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k239'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k239'></use></svg></span><span
+                                class="text">Наушники</span></a><a
+                                class='mainmenu-subitem' href='/k253.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k253'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k253'></use></svg></span><span
+                                class="text">Гарнитуры</span></a><a
+                                class='mainmenu-subitem' href='/k41.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k41'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k41'></use></svg></span><span
+                                class="text">Портативные колонки</span></a><a
+                                class='mainmenu-subitem' href='/k18.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k18'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k18'></use></svg></span><span
+                                class="text">Аудиосистемы</span></a><a
+                                class='mainmenu-subitem' href='/k166.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k166'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k166'></use></svg></span><span
+                                class="text">Компьютерные колонки</span></a><a
+                                class='mainmenu-subitem' href='/k12.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k12'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k12'></use></svg></span><span
+                                class="text">Акустика</span></a><a
+                                class='mainmenu-subitem' href='/k223.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k223'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k223'></use></svg></span><span
+                                class="text">Hi-Fi / Hi-End</span></a><a
+                                class='mainmenu-subitem' href='/k85.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k85'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k85'></use></svg></span><span
+                                class="text">Кабели</span></a><a
+                                class='mainmenu-subitem' href='/k809.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k809'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k809'></use></svg></span><span
+                                class="text">Муз инструменты</span></a><a
+                                class='mainmenu-subitem' href='/k10.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-more'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_more'></use></svg></span><span
+                                class="text">Все разделы</span></a>
+                        </div>
+                        <span class="mainmenu-arrow"><svg class="mainmenu-icon mainmenu-icon-right"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_right"></use></svg><svg
+                                class="mainmenu-icon mainmenu-icon-left"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_left"></use></svg></span></div>
+                </li>
+                <li class="mainmenu-item"><a class='mainmenu-link cancel-click  ' href='/k83.htm'>Бытовая техника<span
+                        class="mainmenu-link-helper"></span></a>
+                    <div class="mainmenu-subwrap">
+                        <div class="mainmenu-sublist"><a class='mainmenu-subitem' href='/k50.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k50'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k50'></use></svg></span><span
+                                class="text">Встраиваемая техника</span></a><a
+                                class='mainmenu-subitem' href='/k94.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k94'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k94'></use></svg></span><span
+                                class="text">Мелкая бытовая</span></a><a
+                                class='mainmenu-subitem' href='/k91.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k91'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k91'></use></svg></span><span
+                                class="text">Стиральные машины</span></a><a
+                                class='mainmenu-subitem' href='/k149.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k149'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k149'></use></svg></span><span
+                                class="text">Холодильники</span></a><a
+                                class='mainmenu-subitem' href='/k84.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k84'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k84'></use></svg></span><span
+                                class="text">Плиты</span></a><a
+                                class='mainmenu-subitem' href='/k216.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k216'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k216'></use></svg></span><span
+                                class="text">Вытяжки</span></a><a
+                                class='mainmenu-subitem' href='/k63.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k63'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k63'></use></svg></span><span
+                                class="text">Духовки</span></a><a
+                                class='mainmenu-subitem' href='/k90.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k90'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k90'></use></svg></span><span
+                                class="text">Пылесосы</span></a><a
+                                class='mainmenu-subitem' href='/k86.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k86'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k86'></use></svg></span><span
+                                class="text">Микроволновки</span></a><a
+                                class='mainmenu-subitem' href='/k53.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k53'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k53'></use></svg></span><span
+                                class="text">Кухонные мойки</span></a><a
+                                class='mainmenu-subitem' href='/k83.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-more'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_more'></use></svg></span><span
+                                class="text">Все разделы</span></a>
+                        </div>
+                        <span class="mainmenu-arrow"><svg class="mainmenu-icon mainmenu-icon-right"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_right"></use></svg><svg
+                                class="mainmenu-icon mainmenu-icon-left"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_left"></use></svg></span></div>
+                </li>
+                <li class="mainmenu-item"><a class='mainmenu-link cancel-click  ' href='/k70.htm'>Климат<span
+                        class="mainmenu-link-helper"></span></a>
+                    <div class="mainmenu-subwrap">
+                        <div class="mainmenu-sublist"><a class='mainmenu-subitem' href='/k77.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k77'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k77'></use></svg></span><span
+                                class="text">Кондиционеры</span></a><a
+                                class='mainmenu-subitem' href='/k72.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k72'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k72'></use></svg></span><span
+                                class="text">Вентиляторы</span></a><a
+                                class='mainmenu-subitem' href='/k78.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k78'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k78'></use></svg></span><span
+                                class="text">Обогреватели</span></a><a
+                                class='mainmenu-subitem' href='/k218.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k218'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k218'></use></svg></span><span
+                                class="text">Водонагреватели</span></a><a
+                                class='mainmenu-subitem' href='/k287.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k287'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k287'></use></svg></span><span
+                                class="text">Котлы</span></a><a
+                                class='mainmenu-subitem' href='/k385.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k385'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k385'></use></svg></span><span
+                                class="text">Радиаторы</span></a><a
+                                class='mainmenu-subitem' href='/k229.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k229'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k229'></use></svg></span><span
+                                class="text">Увлажнители</span></a><a
+                                class='mainmenu-subitem' href='/k519.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k519'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k519'></use></svg></span><span
+                                class="text">Насосы</span></a><a
+                                class='mainmenu-subitem' href='/k314.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k314'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k314'></use></svg></span><span
+                                class="text">Камины</span></a><a
+                                class='mainmenu-subitem' href='/k70.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-more'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_more'></use></svg></span><span
+                                class="text">Все разделы</span></a>
+                        </div>
+                        <span class="mainmenu-arrow"><svg class="mainmenu-icon mainmenu-icon-right"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_right"></use></svg><svg
+                                class="mainmenu-icon mainmenu-icon-left"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_left"></use></svg></span></div>
+                </li>
+                <li class="mainmenu-item"><a class='mainmenu-link cancel-click  ' href='/k747.htm'>Дом<span
+                        class="mainmenu-link-helper"></span></a>
+                    <div class="mainmenu-subwrap">
+                        <div class="mainmenu-sublist"><a class='mainmenu-subitem' href='/k57.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k57'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k57'></use></svg></span><span
+                                class="text">Сантехника</span></a><a
+                                class='mainmenu-subitem' href='/k1208.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k1208'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k1208'></use></svg></span><span
+                                class="text">Ремонт</span></a><a
+                                class='mainmenu-subitem' href='/k557.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k557'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k557'></use></svg></span><span
+                                class="text">Инструмент</span></a><a
+                                class='mainmenu-subitem' href='/k469.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k469'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k469'></use></svg></span><span
+                                class="text">Посуда</span></a><a
+                                class='mainmenu-subitem' href='/k887.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k887'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k887'></use></svg></span><span
+                                class="text">Мебель</span></a><a
+                                class='mainmenu-subitem' href='/k748.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k748'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k748'></use></svg></span><span
+                                class="text">Электрика</span></a><a
+                                class='mainmenu-subitem' href='/k1411.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k1411'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k1411'></use></svg></span><span
+                                class="text">Косметика и гигиена</span></a><a
+                                class='mainmenu-subitem' href='/k543.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k543'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k543'></use></svg></span><span
+                                class="text">Охрана и умный дом</span></a><a
+                                class='mainmenu-subitem' href='/k1238.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k1238'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k1238'></use></svg></span><span
+                                class="text">Медицина</span></a><a
+                                class='mainmenu-subitem' href='/k1014.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k1014'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k1014'></use></svg></span><span
+                                class="text">Зоотовары</span></a><a
+                                class='mainmenu-subitem' href='/k747.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-more'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_more'></use></svg></span><span
+                                class="text">Все разделы</span></a>
+                        </div>
+                        <span class="mainmenu-arrow"><svg class="mainmenu-icon mainmenu-icon-right"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_right"></use></svg><svg
+                                class="mainmenu-icon mainmenu-icon-left"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_left"></use></svg></span></div>
+                </li>
+                <li class="mainmenu-item"><a class='mainmenu-link cancel-click  ' href='/k126.htm'>Детские товары<span
+                        class="mainmenu-link-helper"></span></a>
+                    <div class="mainmenu-subwrap">
+                        <div class="mainmenu-sublist"><a class='mainmenu-subitem' href='/k129.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k129'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k129'></use></svg></span><span
+                                class="text">Коляски</span></a><a
+                                class='mainmenu-subitem' href='/k127.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k127'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k127'></use></svg></span><span
+                                class="text">Кроватки</span></a><a
+                                class='mainmenu-subitem' href='/k132.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k132'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k132'></use></svg></span><span
+                                class="text">Пеленальные столики</span></a><a
+                                class='mainmenu-subitem' href='/k135.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k135'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k135'></use></svg></span><span
+                                class="text">Стульчики для кормления</span></a><a
+                                class='mainmenu-subitem' href='/k659.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k659'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k659'></use></svg></span><span
+                                class="text">Подгузники</span></a><a
+                                class='mainmenu-subitem' href='/k339.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k339'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k339'></use></svg></span><span
+                                class="text">Автокресла</span></a><a
+                                class='mainmenu-subitem' href='/k886.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k886'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k886'></use></svg></span><span
+                                class="text">Школа</span></a><a
+                                class='mainmenu-subitem' href='/k604.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k604'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k604'></use></svg></span><span
+                                class="text">Велосипеды</span></a><a
+                                class='mainmenu-subitem' href='/k411.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k411'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k411'></use></svg></span><span
+                                class="text">Игрушки и развлечения</span></a><a
+                                class='mainmenu-subitem' href='/k704.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k704'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k704'></use></svg></span><span
+                                class="text">РУ модели</span></a><a
+                                class='mainmenu-subitem' href='/k126.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-more'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_more'></use></svg></span><span
+                                class="text">Все разделы</span></a>
+                        </div>
+                        <span class="mainmenu-arrow"><svg class="mainmenu-icon mainmenu-icon-right"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_right"></use></svg><svg
+                                class="mainmenu-icon mainmenu-icon-left"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_left"></use></svg></span></div>
+                </li>
+                <li class="mainmenu-item"><a class='mainmenu-link cancel-click  ' href='/k2.htm'>Авто<span
+                        class="mainmenu-link-helper"></span></a>
+                    <div class="mainmenu-subwrap">
+                        <div class="mainmenu-sublist"><a class='mainmenu-subitem' href='/k337.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k337'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k337'></use></svg></span><span
+                                class="text">Шины</span></a><a
+                                class='mainmenu-subitem' href='/k338.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k338'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k338'></use></svg></span><span
+                                class="text">Диски</span></a><a
+                                class='mainmenu-subitem' href='/k355.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k355'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k355'></use></svg></span><span
+                                class="text">Регистраторы</span></a><a
+                                class='mainmenu-subitem' href='/k339.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k339'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k339'></use></svg></span><span
+                                class="text">Детские автокресла</span></a><a
+                                class='mainmenu-subitem' href='/k40.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k40'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k40'></use></svg></span><span
+                                class="text">Сигнализации</span></a><a
+                                class='mainmenu-subitem' href='/k5.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k5'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k5'></use></svg></span><span
+                                class="text">Магнитолы</span></a><a
+                                class='mainmenu-subitem' href='/k342.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k342'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k342'></use></svg></span><span
+                                class="text">Аккумуляторы</span></a><a
+                                class='mainmenu-subitem' href='/k723.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k723'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k723'></use></svg></span><span
+                                class="text">Моторные масла</span></a><a
+                                class='mainmenu-subitem' href='/k299.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k299'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k299'></use></svg></span><span
+                                class="text">Автомойки</span></a><a
+                                class='mainmenu-subitem' href='/k2.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-more'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_more'></use></svg></span><span
+                                class="text">Все разделы</span></a>
+                        </div>
+                        <span class="mainmenu-arrow"><svg class="mainmenu-icon mainmenu-icon-right"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_right"></use></svg><svg
+                                class="mainmenu-icon mainmenu-icon-left"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_left"></use></svg></span></div>
+                </li>
+                <li class="mainmenu-item"><a class='mainmenu-link cancel-click  ' href='/k336.htm'>Инструмент<span
+                        class="mainmenu-link-helper"></span></a>
+                    <div class="mainmenu-subwrap">
+                        <div class="mainmenu-sublist"><a class='mainmenu-subitem' href='/k557.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k557'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k557'></use></svg></span><span
+                                class="text">Инструмент</span></a><a
+                                class='mainmenu-subitem' href='/k349.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k349'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k349'></use></svg></span><span
+                                class="text">Генераторы</span></a><a
+                                class='mainmenu-subitem' href='/k227.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k227'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k227'></use></svg></span><span
+                                class="text">Сварочные аппараты</span></a><a
+                                class='mainmenu-subitem' href='/k558.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k558'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k558'></use></svg></span><span
+                                class="text">Строительство</span></a><a
+                                class='mainmenu-subitem' href='/k663.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k663'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k663'></use></svg></span><span
+                                class="text">Ручной инструмент</span></a><a
+                                class='mainmenu-subitem' href='/k332.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k332'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k332'></use></svg></span><span
+                                class="text">Садовая техника</span></a><a
+                                class='mainmenu-subitem' href='/k544.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k544'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k544'></use></svg></span><span
+                                class="text">Садовый инструмент</span></a><a
+                                class='mainmenu-subitem' href='/k244.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k244'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k244'></use></svg></span><span
+                                class="text">Лестницы</span></a><a
+                                class='mainmenu-subitem' href='/k336.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-more'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_more'></use></svg></span><span
+                                class="text">Все разделы</span></a>
+                        </div>
+                        <span class="mainmenu-arrow"><svg class="mainmenu-icon mainmenu-icon-right"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_right"></use></svg><svg
+                                class="mainmenu-icon mainmenu-icon-left"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_left"></use></svg></span></div>
+                </li>
+                <li class="mainmenu-item"><a class='mainmenu-link cancel-click  ' href='/k245.htm'>Туризм<span
+                        class="mainmenu-link-helper"></span></a>
+                    <div class="mainmenu-subwrap">
+                        <div class="mainmenu-sublist"><a class='mainmenu-subitem' href='/k74.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k74'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k74'></use></svg></span><span
+                                class="text">Рюкзаки</span></a><a
+                                class='mainmenu-subitem' href='/k759.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k759'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k759'></use></svg></span><span
+                                class="text">Чемоданы</span></a><a
+                                class='mainmenu-subitem' href='/k191.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k191'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k191'></use></svg></span><span
+                                class="text">Палатки</span></a><a
+                                class='mainmenu-subitem' href='/k202.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k202'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k202'></use></svg></span><span
+                                class="text">Спальники</span></a><a
+                                class='mainmenu-subitem' href='/k76.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k76'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k76'></use></svg></span><span
+                                class="text">Фонарики</span></a><a
+                                class='mainmenu-subitem' href='/k407.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k407'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k407'></use></svg></span><span
+                                class="text">Термосы</span></a><a
+                                class='mainmenu-subitem' href='/k365.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k365'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k365'></use></svg></span><span
+                                class="text">Горелки</span></a><a
+                                class='mainmenu-subitem' href='/k17.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k17'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k17'></use></svg></span><span
+                                class="text">Мангалы</span></a><a
+                                class='mainmenu-subitem' href='/k405.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k405'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k405'></use></svg></span><span
+                                class="text">Рыбалка</span></a><a
+                                class='mainmenu-subitem' href='/k245.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-more'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_more'></use></svg></span><span
+                                class="text">Все разделы</span></a>
+                        </div>
+                        <span class="mainmenu-arrow"><svg class="mainmenu-icon mainmenu-icon-right"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_right"></use></svg><svg
+                                class="mainmenu-icon mainmenu-icon-left"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_left"></use></svg></span></div>
+                </li>
+                <li class="mainmenu-item"><a class='mainmenu-link cancel-click  ' href='/k373.htm'>Спорт<span
+                        class="mainmenu-link-helper"></span></a>
+                    <div class="mainmenu-subwrap">
+                        <div class="mainmenu-sublist"><a class='mainmenu-subitem' href='/k161.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k161'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k161'></use></svg></span><span
+                                class="text">Велосипеды</span></a><a
+                                class='mainmenu-subitem' href='/k436.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k436'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k436'></use></svg></span><span
+                                class="text">Роликовые коньки</span></a><a
+                                class='mainmenu-subitem' href='/k435.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k435'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k435'></use></svg></span><span
+                                class="text">Скейтборды</span></a><a
+                                class='mainmenu-subitem' href='/k427.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k427'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k427'></use></svg></span><span
+                                class="text">Тренажеры</span></a><a
+                                class='mainmenu-subitem' href='/k429.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k429'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k429'></use></svg></span><span
+                                class="text">Лыжи</span></a><a
+                                class='mainmenu-subitem' href='/k431.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k431'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k431'></use></svg></span><span
+                                class="text">Коньки</span></a><a
+                                class='mainmenu-subitem' href='/k695.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k695'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k695'></use></svg></span><span
+                                class="text">Action камеры</span></a><a
+                                class='mainmenu-subitem' href='/k1104.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k1104'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k1104'></use></svg></span><span
+                                class="text">Спортивное питание</span></a><a
+                                class='mainmenu-subitem' href='/k373.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-more'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_more'></use></svg></span><span
+                                class="text">Все разделы</span></a>
+                        </div>
+                        <span class="mainmenu-arrow"><svg class="mainmenu-icon mainmenu-icon-right"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_right"></use></svg><svg
+                                class="mainmenu-icon mainmenu-icon-left"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_left"></use></svg></span></div>
+                </li>
+                <li class="mainmenu-item"><a class='mainmenu-link cancel-click  ' href='/k586.htm'>Часы и украшения<span
+                        class="mainmenu-link-helper"></span></a>
+                    <div class="mainmenu-subwrap">
+                        <div class="mainmenu-sublist"><a class='mainmenu-subitem' href='/k595.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k595'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k595'></use></svg></span><span
+                                class="text">Часы</span></a><a
+                                class='mainmenu-subitem' href='/k745.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k745'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k745'></use></svg></span><span
+                                class="text">Умные часы и браслеты</span></a><a
+                                class='mainmenu-subitem' href='/k967.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k967'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k967'></use></svg></span><span
+                                class="text">Ювелирные украшения</span></a><a
+                                class='mainmenu-subitem' href='/k765.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k765'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k765'></use></svg></span><span
+                                class="text">Сумочки</span></a><a
+                                class='mainmenu-subitem' href='/k995.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k995'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k995'></use></svg></span><span
+                                class="text">Клатчи</span></a><a
+                                class='mainmenu-subitem' href='/k888.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k888'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k888'></use></svg></span><span
+                                class="text">Косметика</span></a><a
+                                class='mainmenu-subitem' href='/k996.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k996'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k996'></use></svg></span><span
+                                class="text">Пояса</span></a><a
+                                class='mainmenu-subitem' href='/k998.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k998'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k998'></use></svg></span><span
+                                class="text">Зажимы для галстуков</span></a><a
+                                class='mainmenu-subitem' href='/k869.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k869'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k869'></use></svg></span><span
+                                class="text">Зонты</span></a><a
+                                class='mainmenu-subitem' href='/k586.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-more'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_more'></use></svg></span><span
+                                class="text">Все разделы</span></a>
+                        </div>
+                        <span class="mainmenu-arrow"><svg class="mainmenu-icon mainmenu-icon-right"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_right"></use></svg><svg
+                                class="mainmenu-icon mainmenu-icon-left"><use
+                                xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_left"></use></svg></span></div>
+                </li>
+                <li class="mainmenu-item more-section"><span class="mainmenu-link">Еще+<span
+                        class="mainmenu-link-helper"></span></span>
+                    <div class="mainmenu-subwrap">
+                        <div class="mainmenu-sublist"><a class='mainmenu-subitem' href='/k119.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k30'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k30'></use></svg></span><span
+                                class="text">Гаджеты</span></a><a
+                                class='mainmenu-subitem' href='/k169.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k170'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k170'></use></svg></span><span
+                                class="text">Компьютеры</span></a><a
+                                class='mainmenu-subitem' href='/k204.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k206'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k206'></use></svg></span><span
+                                class="text">Фото</span></a><a
+                                class='mainmenu-subitem' href='/k123.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k160'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k160'></use></svg></span><span
+                                class="text">&nbsp;TV&nbsp;</span></a><a
+                                class='mainmenu-subitem' href='/k10.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k239'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k239'></use></svg></span><span
+                                class="text">Аудио</span></a><a
+                                class='mainmenu-subitem' href='/k83.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k91'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k91'></use></svg></span><span
+                                class="text">Бытовая техника</span></a><a
+                                class='mainmenu-subitem' href='/k70.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k77'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k77'></use></svg></span><span
+                                class="text">Климат</span></a><a
+                                class='mainmenu-subitem' href='/k747.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k887'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k887'></use></svg></span><span
+                                class="text">Дом</span></a><a class='mainmenu-subitem' href='/k126.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k129'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k129'></use></svg></span><span
+                                class="text">Детские товары</span></a><a
+                                class='mainmenu-subitem' href='/k2.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k337'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k337'></use></svg></span><span
+                                class="text">Авто</span></a><a
+                                class='mainmenu-subitem' href='/k336.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k557'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k557'></use></svg></span><span
+                                class="text">Инструмент</span></a><a
+                                class='mainmenu-subitem' href='/k245.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k191'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k191'></use></svg></span><span
+                                class="text">Туризм</span></a><a
+                                class='mainmenu-subitem' href='/k373.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k161'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k161'></use></svg></span><span
+                                class="text">Спорт</span></a><a
+                                class='mainmenu-subitem' href='/k586.htm'><span class='image'><svg
+                                class='mainmenu-icon mainmenu-icon-k595'><use
+                                xlink:href='/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k595'></use></svg></span><span
+                                class="text">Часы и украшения</span></a>
+                        </div>
+                        <span class="arrow"></span></div>
+                </li>
+            </ul>
+            <div class="mainmenu-submenu"></div>
+        </div>
+        <script>window.mainMenu.init();</script>
+    </div>
+    <div class="mp-slider s-width" data-options="{&quot;autoSlide&quot;:false}">
+        <div class="mp-slider__items">
+            <div class="clearfix" style="width: 400%;">
+                <div class="mp-slider__item">
+                    <div class="row clearfix">
+                        <div class="col-25 x2"><a class="mp-slider__item__link" href="/k157.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/wide/157.jpg"
+                                 style="opacity: 0;"></div>
+                        </a><a class="mp-slider__item__link" href="/k170.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/wide/170.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                        <div class="col-25"><a class="mp-slider__item__link" href="/k61.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/61.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                        <div class="col-50"><a class="mp-slider__item__link" href="/k173.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy"
+                                 data-src="/jpg/jpg_katalog/wide_lg/173.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                    </div>
+                    <div class="row clearfix">
+                        <div class="col-25 x05"><a class="mp-slider__item__link" href="/k160.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/wide/160.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                        <div class="col-25 x05"><a class="mp-slider__item__link" href="/k33.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/wide/33.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                        <div class="col-25 x05"><a class="mp-slider__item__link" href="/k190.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/wide/190.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                        <div class="col-25 x05"><a class="mp-slider__item__link" href="/k188.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/wide/188.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                    </div>
+                </div>
+                <div class="mp-slider__item">
+                    <div class="row clearfix">
+                        <div class="col-25 x2"><a class="mp-slider__item__link" href="/k189.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/wide/189.jpg"
+                                 style="opacity: 0;"></div>
+                        </a><a class="mp-slider__item__link" href="/k85.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/wide/85.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                        <div class="col-25"><a class="mp-slider__item__link" href="/k298.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/298.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                        <div class="col-50"><a class="mp-slider__item__link" href="/k556.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy"
+                                 data-src="/jpg/jpg_katalog/wide_lg/556.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                    </div>
+                    <div class="row clearfix">
+                        <div class="col-25 x05"><a class="mp-slider__item__link" href="/k239.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/wide/239.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                        <div class="col-25 x05"><a class="mp-slider__item__link" href="/k186.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/wide/186.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                        <div class="col-25 x05"><a class="mp-slider__item__link" href="/k30.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/wide/30.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                        <div class="col-25 x05"><a class="mp-slider__item__link" href="/k187.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/wide/187.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                    </div>
+                </div>
+                <div class="mp-slider__item">
+                    <div class="row clearfix">
+                        <div class="col-25 x2"><a class="mp-slider__item__link" href="/k178.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/wide/178.jpg"
+                                 style="opacity: 0;"></div>
+                        </a><a class="mp-slider__item__link" href="/k303.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/wide/303.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                        <div class="col-25"><a class="mp-slider__item__link" href="/k351.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/351.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                        <div class="col-50"><a class="mp-slider__item__link" href="/k154.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy"
+                                 data-src="/jpg/jpg_katalog/wide_lg/154.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                    </div>
+                    <div class="row clearfix">
+                        <div class="col-25 x05"><a class="mp-slider__item__link" href="/k267.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/wide/267.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                        <div class="col-25 x05"><a class="mp-slider__item__link" href="/k173.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/wide/173.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                        <div class="col-25 x05"><a class="mp-slider__item__link" href="/k193.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/wide/193.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                        <div class="col-25 x05"><a class="mp-slider__item__link" href="/k329.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/wide/329.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                    </div>
+                </div>
+                <div class="mp-slider__item">
+                    <div class="row clearfix">
+                        <div class="col-25 x2"><a class="mp-slider__item__link" href="/k22.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/wide/22.jpg"
+                                 style="opacity: 0;"></div>
+                        </a><a class="mp-slider__item__link" href="/k246.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/wide/246.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                        <div class="col-25"><a class="mp-slider__item__link" href="/k938.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/938.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                        <div class="col-50"><a class="mp-slider__item__link" href="/k177.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy"
+                                 data-src="/jpg/jpg_katalog/wide_lg/177.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                    </div>
+                    <div class="row clearfix">
+                        <div class="col-25 x05"><a class="mp-slider__item__link" href="/k180.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/wide/180.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                        <div class="col-25 x05"><a class="mp-slider__item__link" href="/k163.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/wide/163.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                        <div class="col-25 x05"><a class="mp-slider__item__link" href="/k234.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/wide/234.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                        <div class="col-25 x05"><a class="mp-slider__item__link" href="/k698.htm">
+                            <div class="mp-slider__item__content-catalog mui-lazy" data-src="/jpg/jpg_katalog/wide/698.jpg"
+                                 style="opacity: 0;"></div>
+                        </a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mp-slider__nav-arrow">
+            <div class="mp-slider__nav-arrow__left">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 87 86">
+                    <path class="slider-arrow-left"
+                          d="M42.59 86h-.06a5.27 5.27 0 0 1-3.77-1.54L1.53 46.61A5.15 5.15 0 0 1 .4 44.9a5.32 5.32 0 0 1 1.13-5.73L38.91 1.54A5.13 5.13 0 0 1 42.58 0a5.35 5.35 0 0 1 3.69 1.52 5.32 5.32 0 0 1 0 7.47L17.84 37.73h63.91a5.27 5.27 0 0 1 0 10.54H17.84L46.29 77a5.31 5.31 0 0 1 0 7.44 5.21 5.21 0 0 1-3.7 1.56Z"/>
+                </svg>
+            </div>
+            <div class="mp-slider__nav-arrow__right">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 87 86">
+                    <path class="slider-arrow-right"
+                          d="M44.41 86h.06a5.27 5.27 0 0 0 3.77-1.54l37.23-37.85a5.15 5.15 0 0 0 1.13-1.71 5.32 5.32 0 0 0-1.13-5.73L48.09 1.54A5.13 5.13 0 0 0 44.42 0a5.35 5.35 0 0 0-3.69 1.52 5.32 5.32 0 0 0 0 7.47l28.43 28.74H5.25a5.27 5.27 0 0 0 0 10.54h63.91L40.71 77a5.31 5.31 0 0 0 0 7.44 5.21 5.21 0 0 0 3.7 1.56Z"/>
+                </svg>
+            </div>
+        </div>
+        <ul class="mp-slider__nav-dot">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <script src="https://kz.e-katalog.com/js/module/mp_slider.min_ver_1.27.22.js" async data-no-mobile></script>
+    <div class="s-width">
+        <div class='rb-div cont-block-line-new2'>
+            <div class="cont-block-title h-m-b-10" style="position:relative;"><span class="ib blue brand-page-title">Популярные модели</span>
+            </div>
+            <div id="t_container_bm_h3heujtfciv" class='touchcarousel ' style="position:relative;">
+                <div id="a_back_bm_h3heujtfciv" class="arr1-back-disabled">
+                    <svg class="arr1-back-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 87 86">
+                        <path
+                                d="M42.59 86h-.06a5.27 5.27 0 0 1-3.77-1.54L1.53 46.61A5.15 5.15 0 0 1 .4 44.9a5.32 5.32 0 0 1 1.13-5.73L38.91 1.54A5.13 5.13 0 0 1 42.58 0a5.35 5.35 0 0 1 3.69 1.52 5.32 5.32 0 0 1 0 7.47L17.84 37.73h63.91a5.27 5.27 0 0 1 0 10.54H17.84L46.29 77a5.31 5.31 0 0 1 0 7.44 5.21 5.21 0 0 1-3.7 1.56Z"/>
+                    </svg>
+                </div>
+                <div id="a_next_bm_h3heujtfciv" class="arr1-next-disabled">
+                    <svg class="arr1-next-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 87 86">
+                        <path
+                                d="M44.41 86h.06a5.27 5.27 0 0 0 3.77-1.54l37.23-37.85a5.15 5.15 0 0 0 1.13-1.71 5.32 5.32 0 0 0-1.13-5.73L48.09 1.54A5.13 5.13 0 0 0 44.42 0a5.35 5.35 0 0 0-3.69 1.52 5.32 5.32 0 0 0 0 7.47l28.43 28.74H5.25a5.27 5.27 0 0 0 0 10.54h63.91L40.71 77a5.31 5.31 0 0 0 0 7.44 5.21 5.21 0 0 0 3.7 1.56Z"/>
+                    </svg>
+                </div>
+                <div class="goods-menu-mask one-row-items h120"
+                     style="position:relative; overflow:hidden;white-space: nowrap;">
+                    <div id="s_bm_h3heujtfciv" style="position:absolute; top:0; left:0; height: 100%; margin-left: -10px;"
+                         class="touchcarousel-container"><a href="/DREAME-T20.htm"
+                                                            class='touchcarousel-item cat-top-goods-div top_goods (добавлено из самых популярных)'
+                                                            title=''>
+                        <div class='katalog-i20'>
+                            <div class="katalog-i20-item contain mui-lazy" data-src="/jpg/1943418.jpg"></div>
+                        </div>
+                        <span class="cat-top-goods-name"><u>Dreame T20</u></span><br/><span
+                            class="cat-top-goods-price">от <span>123&nbsp;565&nbsp;тг.</span></span></a><a
+                            href="/XIAOMI-REDMI-10-64GB.htm"
+                            class='touchcarousel-item cat-top-goods-div top_goods (добавлено из самых популярных)' title=''>
+                        <div class='katalog-i20'>
+                            <div class="katalog-i20-item contain mui-lazy" data-src="/jpg/2076122.jpg"></div>
+                        </div>
+                        <span class="cat-top-goods-name"><u>Xiaomi Redmi 10 64GB</u></span><br/><span
+                            class="cat-top-goods-price">от <span>66&nbsp;932&nbsp;тг.</span></span></a><a
+                            href="/XIAOMI-REDMI-BUDS-3-PRO.htm"
+                            class='touchcarousel-item cat-top-goods-div top_goods (добавлено из самых популярных)' title=''>
+                        <div class='katalog-i20'>
+                            <div class="katalog-i20-item contain mui-lazy" data-src="/jpg/2058251.jpg"></div>
+                        </div>
+                        <span class="cat-top-goods-name"><u>Xiaomi Redmi Buds 3 Pro</u></span><br/><span
+                            class="cat-top-goods-price">от <span>24&nbsp;938&nbsp;тг.</span></span></a><a
+                            href="/XIAOMI-MIJIA-ROBOT-VACUUM-MOP-P.htm"
+                            class='touchcarousel-item cat-top-goods-div top_goods (добавлено из самых популярных)' title=''>
+                        <div class='katalog-i20'>
+                            <div class="katalog-i20-item contain mui-lazy" data-src="/jpg/1677862.jpg"></div>
+                        </div>
+                        <span class="cat-top-goods-name"><u>Xiaomi MiJia Robot Vacuum Mop P</u></span><br/><span
+                            class="cat-top-goods-price">от <span>109&nbsp;990&nbsp;тг.</span></span></a><a
+                            href="/XIAOMI-MI-AIR-2S.htm"
+                            class='touchcarousel-item cat-top-goods-div top_goods (добавлено из самых популярных)'
+                            title=''>
+                        <div class='katalog-i20'>
+                            <div class="katalog-i20-item contain mui-lazy" data-src="/jpg/1863762.jpg"></div>
+                        </div>
+                        <span class="cat-top-goods-name"><u>Xiaomi Mi Air 2s</u></span><br/><span
+                            class="cat-top-goods-price">от <span>20&nbsp;563&nbsp;тг.</span></span></a><a
+                            href="/ATLANT-XM-6024-031.htm"
+                            class='touchcarousel-item cat-top-goods-div top_goods (добавлено из самых популярных)'
+                            title=''>
+                        <div class='katalog-i20'>
+                            <div class="katalog-i20-item contain mui-lazy" data-src="/jpg/52893.jpg"></div>
+                        </div>
+                        <span class="cat-top-goods-name"><u>Atlant XM-6024-031</u></span><br/><span
+                            class="cat-top-goods-price">от <span>184&nbsp;990&nbsp;тг.</span></span></a><a
+                            href="/SIGMA-20MM-F-1-4-ART-HSM-DG.htm"
+                            class='touchcarousel-item cat-top-goods-div top_goods (добавлено из самых популярных)' title=''>
+                        <div class='katalog-i20'>
+                            <div class="katalog-i20-item contain mui-lazy" data-src="/jpg/711925.jpg"></div>
+                        </div>
+                        <span class="cat-top-goods-name"><u>Sigma 20mm f/1.4 Art HSM DG</u></span><br/><span
+                            class="cat-top-goods-price">от <span>328&nbsp;700&nbsp;тг.</span></span></a><a
+                            href="/BOSCH-GKS-190-PROFESSIONAL-0601623000.htm"
+                            class='touchcarousel-item cat-top-goods-div top_goods (добавлено из самых популярных)'
+                            title='Bosch GKS 190 Professional 0601623000'>
+                        <div class='katalog-i20'>
+                            <div class="katalog-i20-item contain mui-lazy" data-src="/jpg/102369.jpg"></div>
+                        </div>
+                        <span class="cat-top-goods-name"><u>Bosch GKS 190 Professional 0601623000</u></span><br/><span
+                            class="cat-top-goods-price">от <span>65&nbsp;495&nbsp;тг.</span></span></a><a
+                            href="/CANDY-SMART-CS4-1051-D1-2.htm"
+                            class='touchcarousel-item cat-top-goods-div top_goods (добавлено из самых популярных)' title=''>
+                        <div class='katalog-i20'>
+                            <div class="katalog-i20-item contain mui-lazy" data-src="/jpg/944273.jpg"></div>
+                        </div>
+                        <span class="cat-top-goods-name"><u>Candy Smart CS4 1051 D1/2</u></span><br/><span
+                            class="cat-top-goods-price">от <span>301&nbsp;471&nbsp;тг.</span></span></a><a
+                            href="/GEFEST-3200-06-K33.htm"
+                            class='touchcarousel-item cat-top-goods-div top_goods (добавлено из самых популярных)'
+                            title=''>
+                        <div class='katalog-i20'>
+                            <div class="katalog-i20-item contain mui-lazy" data-src="/jpg/636874.jpg"></div>
+                        </div>
+                        <span class="cat-top-goods-name"><u>Gefest 3200-06 K33</u></span><br/><span
+                            class="cat-top-goods-price">от <span>117&nbsp;300&nbsp;тг.</span></span></a><a
+                            href="/GEFEST-3200-08-K33.htm"
+                            class='touchcarousel-item cat-top-goods-div top_goods (добавлено из самых популярных)'
+                            title=''>
+                        <div class='katalog-i20'>
+                            <div class="katalog-i20-item contain mui-lazy" data-src="/jpg/636886.jpg"></div>
+                        </div>
+                        <span class="cat-top-goods-name"><u>Gefest 3200-08 K33</u></span><br/><span
+                            class="cat-top-goods-price">от <span>95&nbsp;300&nbsp;тг.</span></span></a><a
+                            href="/VIATTI-BOSCO-A-T-V-237-215-65-R16-98H.htm"
+                            class='touchcarousel-item cat-top-goods-div top_goods (добавлено из самых популярных)'
+                            title='Viatti Bosco A/T V-237 215/65 R16 98H'>
+                        <div class='katalog-i20  h110'>
+                            <div class="katalog-i20-item contain mui-lazy" data-src="/jpg/432040.jpg"></div>
+                        </div>
+                        <span class="cat-top-goods-name"><u>Viatti Bosco A/T V-237</u></span><span
+                            class="cat-top-goods-pn no-mobile">[215/65 R16 98H]</span><br/><span
+                            class="cat-top-goods-price">от <span>39&nbsp;800&nbsp;тг.</span></span></a><a
+                            href="/PEG-PEREGO-YPSI.htm"
+                            class='touchcarousel-item cat-top-goods-div top_goods (добавлено из самых популярных)'
+                            title=''>
+                        <div class='katalog-i20'>
+                            <div class="katalog-i20-item contain mui-lazy" data-src="/jpg/1550510.jpg"></div>
+                        </div>
+                        <span class="cat-top-goods-name"><u>Peg Perego Ypsi</u></span><br/><span
+                            class="cat-top-goods-price">от <span>148&nbsp;200&nbsp;тг.</span></span></a><a
+                            href="/PATRIOT-PT-445.htm"
+                            class='touchcarousel-item cat-top-goods-div top_goods (добавлено из самых популярных)' title=''>
+                        <div class='katalog-i20'>
+                            <div class="katalog-i20-item contain mui-lazy" data-src="/jpg/1362511.jpg"></div>
+                        </div>
+                        <span class="cat-top-goods-name"><u>Patriot PT 445</u></span><br/><span class="cat-top-goods-price">от <span>59&nbsp;987&nbsp;тг.</span></span></a><a
+                            href="/LG-F2H5HS6W.htm"
+                            class='touchcarousel-item cat-top-goods-div top_goods (добавлено из самых популярных)'
+                            title=''>
+                        <div class='katalog-i20'>
+                            <div class="katalog-i20-item contain mui-lazy" data-src="/jpg/1671014.jpg"></div>
+                        </div>
+                        <span class="cat-top-goods-name"><u>LG F2H5HS6W</u></span><br/><span class="cat-top-goods-price">от <span>774&nbsp;629&nbsp;тг.</span></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(function () {
+                var uniq_id = '_bm_h3heujtfciv';
+                var opts = {
+                    'suff': '_bm_h3heujtfciv',
+                    'numItems': $("#s" + uniq_id + " .touchcarousel-item").length,
+                    'currentNumGood': 0,
+                    'item_size': 160,
+                    'mode': 'width',
+                    'max_count_dots': 10,
+                    'load_items': false,
+                    'align_mode': 'nowrap',
+                    'one_row_items': true,
+                    'back_next_containers': '#t_container' + uniq_id + ' .gt-left-arr, #t_container' + uniq_id + ' .gt-right-arr',
+                    'arr_width': '114',
+                    'class': {
+                        'back': 'arr1-back',
+                        'back_disabled': 'arr1-back-disabled',
+                        'next': 'arr1-next',
+                        'next_disabled': 'arr1-next-disabled',
+                        'dot': 'dot',
+                        'dot_selected': 'dot-selected'
+                    },
+                    'dom': {
+                        'stripe': '#s' + uniq_id,
+                        'mask': '#m' + uniq_id,
+                        'td_container': '#t_container' + uniq_id,
+                        'dots': '#dots' + uniq_id,
+                        'back': '#a_back' + uniq_id,
+                        'next': '#a_next' + uniq_id,
+                    }
+                };
+                var s_slider = new StripeSlider($.extend(opts, {'arr_item_size': [268, 234, 194]}));
+    
+                s_slider.set_mask();
+                s_slider.set_dots();
+                s_slider.show();
+            });
+        </script>
+    </div>
+    <hr>
+    <div class="s-width">
+        <div id="h3heujvya0v" class="articles">
+            <div class="articles-title">Статьи, обзоры, рекомендации<a href="/ek-post.php?ida_=0&katalog_=1&mode_=short"
+                                                                       class="articles-all">Все материалы</a></div>
+            <div class="articles-table">
+                <div class="articles-cell"><a
+                        href="/post/4330/157-top-5-monitorov-vysokogo-razresheniya-v-pridachu-k-noutbuku/"
+                        class="article-link"
+                        title="ТОП-5 мониторов высокого разрешения в придачу к ноутбуку">
+                    <div id="h3heujvydcv" class="article-img mui-lazy" data-src="/posts/files/4330/medium_pic.jpg"></div>
+                    <script>$('#h3heujvydcv').lazy_load({domReady: true});</script>
+                    <div class="article-title">ТОП-5 мониторов высокого разрешения в придачу к ноутбуку</div>
+                </a>
+                    <div class="article-desc">На большом экране монитора гораздо приятнее работать за ноутбуком</div>
+                </div>
+                <div class="articles-cell-separator"></div>
+                <div class="articles-cell"><a href="/post/4082/248-wi-fi-6e-revolyuciya-v-mire-besprovodnoy-svyazi/"
+                                              class="article-link" title="Wi-Fi 6E: революция в мире беспроводной связи?">
+                    <div id="h3heujvyf1v" class="article-img mui-lazy" data-src="/posts/files/4082/medium_pic.jpg"></div>
+                    <script>$('#h3heujvyf1v').lazy_load({domReady: true});</script>
+                    <div class="article-title">Wi-Fi 6E: революция в мире беспроводной связи?</div>
+                </a>
+                    <div class="article-desc">По мнению некоторых экспертов Wi-Fi 6E ― это важнейшее обновление Wi-Fi за
+                        последние
+                        20 лет
+                    </div>
+                </div>
+                <div class="articles-cell-separator"></div>
+                <div class="articles-cell"><a href="/post/4430/298-apgreyd-noutbuka-chto-mozhno-uluchshit/"
+                                              class="article-link"
+                                              title="Апгрейд ноутбука: что можно улучшить?">
+                    <div id="h3heujvygjv" class="article-img mui-lazy" data-src="/posts/files/4430/medium_pic.jpg"></div>
+                    <script>$('#h3heujvygjv').lazy_load({domReady: true});</script>
+                    <div class="article-title">Апгрейд ноутбука: что можно улучшить?</div>
+                </a>
+                    <div class="article-desc">Ускоряем оперативку, добавляем второй диск, расширяем порты и разъемы</div>
+                </div>
+                <div class="articles-cell-separator"></div>
+                <div class="articles-cell"><a
+                        href="/post/4323/170-kompyuter-dlya-videomontazha-v-adobe-premier-sony-vegas-i-davinci-resolve/"
+                        class="article-link"
+                        title="Компьютер для видеомонтажа в Adobe Premier, Sony Vegas и DaVinci Resolve">
+                    <div id="h3heujvyhyv" class="article-img mui-lazy" data-src="/posts/files/4323/medium_pic.jpg"></div>
+                    <script>$('#h3heujvyhyv').lazy_load({domReady: true});</script>
+                    <div class="article-title">Компьютер для видеомонтажа в Adobe Premier, Sony Vegas и DaVinci Resolve
+                    </div>
+                </a>
+                    <div class="article-desc">Сборка ПК для профессионального монтажа 4K-видео за умеренные деньги</div>
+                </div>
+                <div class="articles-cell-separator"></div>
+            </div>
+            <div class="articles-table">
+                <div class="articles-cell"><a
+                        href="/post/4251/351-zdorovaya-energodieta-top-5-blokov-pitaniya-80plus-white-i-80plus-bronze/"
+                        class="article-link" title="Здоровая энергодиета: ТОП-5 блоков питания 80+ White и 80+ Bronze">
+                    <div id="h3heujvyjev" class="article-img mui-lazy" data-src="/posts/files/4251/medium_pic.jpg"></div>
+                    <script>$('#h3heujvyjev').lazy_load({domReady: true});</script>
+                    <div class="article-title">Здоровая энергодиета: ТОП-5 блоков питания 80+ White и 80+ Bronze</div>
+                </a>
+                    <div class="article-desc">Официально сертифицированные источники питания с КПД от 80 до 85 %</div>
+                </div>
+                <div class="articles-cell-separator"></div>
+                <div class="articles-cell"><a
+                        href="/post/3777/170-byudzhetnyy-igrovoy-pk-dlya-fifa-22-forza-horizon-5-i-tales-of-arise/"
+                        class="article-link"
+                        title="Бюджетный игровой ПК для FIFA 22, Forza Horizon 5 и Tales of Arise">
+                    <div id="h3heujvyktv" class="article-img mui-lazy" data-src="/posts/files/3777/medium_pic.jpg"></div>
+                    <script>$('#h3heujvyktv').lazy_load({domReady: true});</script>
+                    <div class="article-title">Бюджетный игровой ПК для FIFA 22, Forza Horizon 5 и Tales of Arise</div>
+                </a>
+                    <div class="article-desc">Процессор Core i3, видеокарта на 2 ГБ и все, что к ним прилагается</div>
+                </div>
+                <div class="articles-cell-separator"></div>
+                <div class="articles-cell"><a
+                        href="/post/4048/157-pogruzhenie-v-geympley-pyaterka-shirokoformatnyh-igrovyh-monitorov-s-diagonalyu-34-dyuyma/"
+                        class="article-link"
+                        title="Погружение в геймплей: пятерка широкоформатных игровых мониторов с диагональю 34 дюйма">
+                    <div id="h3heujvymov" class="article-img mui-lazy" data-src="/posts/files/4048/medium_pic.jpg"></div>
+                    <script>$('#h3heujvymov').lazy_load({domReady: true});</script>
+                    <div class="article-title">Погружение в геймплей: пятерка широкоформатных игровых мониторов с диагональю
+                        34
+                        дюйма
+                    </div>
+                </a>
+                    <div class="article-desc">Более широкий угол обзора всецело погружает геймерскую аудиторию в игру</div>
+                </div>
+                <div class="articles-cell-separator"></div>
+                <div class="articles-cell"><a href="/post/3938/61-top-5-vneshnih-ssd-srednego-ob-ema/" class="article-link"
+                                              title="ТОП-5 внешних SSD среднего объема">
+                    <div id="h3heujvyo1v" class="article-img mui-lazy" data-src="/posts/files/3938/medium_pic.jpg"></div>
+                    <script>$('#h3heujvyo1v').lazy_load({domReady: true});</script>
+                    <div class="article-title">ТОП-5 внешних SSD среднего объема</div>
+                </a>
+                    <div class="article-desc">Пятерка быстрых альтернатив флешкам и внешним HDD объемом в 240 – 256 ГБ</div>
+                </div>
+                <div class="articles-cell-separator"></div>
+            </div>
+        </div>
+    </div>
+    <hr><!-- 123456 -->
+    <div class="s-width">
+        <div class='s-catalog'>
+            <div class='s-catalog-title'><span class='ib'>Каталог товаров</span></div>
+            <table class='s-catalog-table'>
+                <tr>
+                    <td class='s-catalog-td'>
+                        <div class="s-catalog-block">
+                            <div class="s-catalog-icons"><a href="/list/119/">
+                                <div class="image">
+                                    <svg class="mainmenu-icon mainmenu-icon-k30">
+                                        <use xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k30"></use>
+                                    </svg>
+                                </div>
+                            </a></div>
+                            <div class="s-catalog-subcat"><a href="/list/119/" class='s-catalog-cat'>Связь и
+                                гаджеты</a><span
+                                    class='ib'><a href="/list/122/">Мобильные</a>,</span> <span class='ib'><a
+                                    href="/list/30/">Планшеты</a>,</span> <span class='ib'><a href="/list/33/">Приставки</a>,</span>
+                                <span
+                                        class='ib'><a href="/list/699/">Powerbank</a>,</span> <span class='ib'><a
+                                        href="/list/745/">Смарт часы и браслеты</a>,</span>
+                                <span class='ib'><a href="/list/695/">Action камеры</a>,</span> <span class='ib'><a
+                                        href="/list/239/">Наушники</a>,</span>
+                                <span class="nobr"><span class='ib'><a href="/list/943/">Квадрокоптеры (дроны)</a>,</span> ...</span>
+                            </div>
+                        </div>
+                        <div class="s-catalog-block">
+                            <div class="s-catalog-icons"><a href="/list/169/">
+                                <div class="image">
+                                    <svg class="mainmenu-icon mainmenu-icon-k170">
+                                        <use xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k170"></use>
+                                    </svg>
+                                </div>
+                            </a></div>
+                            <div class="s-catalog-subcat"><a href="/list/169/" class='s-catalog-cat'>Компьютерная
+                                техника</a><span
+                                    class='ib'><a href="/list/298/">Ноутбуки</a>,</span> <span class='ib'><a
+                                    href="/list/30/">Планшеты</a>,</span> <span class='ib'><a href="/list/157/">Мониторы</a>,</span>
+                                <span
+                                        class='ib'><a href="/list/170/">ПК</a>,</span> <span class='ib'><a
+                                        href="/list/173/">Комплектующие</a>,</span> <span class='ib'><a href="/list/33/">Приставки</a>,</span>
+                                <span class='ib'><a href="/list/248/">Wi-Fi</a>,</span> <span class="nobr"><span class='ib'><a
+                                        href="/list/179/">Клавиатуры</a>,</span> ...</span></div>
+                        </div>
+                        <div class="s-catalog-block">
+                            <div class="s-catalog-icons"><a href="/list/208/">
+                                <div class="image">
+                                    <svg class="mainmenu-icon mainmenu-icon-k214">
+                                        <use xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k214"></use>
+                                    </svg>
+                                </div>
+                            </a></div>
+                            <div class="s-catalog-subcat"><a href="/list/208/" class='s-catalog-cat'>Офис и
+                                канцелярия</a><span
+                                    class='ib'><a href="/list/180/">МФУ</a>,</span> <span class='ib'><a href="/list/163/">Принтеры</a>,</span>
+                                <span class='ib'><a href="/list/399/">Картриджи</a>,</span> <span class='ib'><a
+                                        href="/list/400/">Бумага</a>,</span> <span class='ib'><a
+                                        href="/list/214/">Проекторы</a>,</span> <span
+                                        class='ib'><a href="/list/210/">Факсы</a>,</span> <span class='ib'><a
+                                        href="/list/141/">Проводные телефоны</a>,</span>
+                                <span class="nobr"><span class='ib'><a href="/list/1187/">Канцелярия</a>,</span> ...</span>
+                            </div>
+                        </div>
+                        <div class="s-catalog-block">
+                            <div class="s-catalog-icons"><a href="/list/204/">
+                                <div class="image">
+                                    <svg class="mainmenu-icon mainmenu-icon-k206">
+                                        <use xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k206"></use>
+                                    </svg>
+                                </div>
+                            </a></div>
+                            <div class="s-catalog-subcat"><a href="/list/204/" class='s-catalog-cat'>Фото и
+                                видеосъемка</a><span
+                                    class='ib'><a href="/list/206/">Фотоаппараты</a>,</span> <span class='ib'><a
+                                    href="/list/265/">Объективы</a>,</span> <span class='ib'><a href="/list/695/">Action камеры</a>,</span>
+                                <span class='ib'><a href="/list/1299/">Стедикамы (ручные стабилизаторы)</a>,</span> <span
+                                        class='ib'><a
+                                        href="/list/32/">Карты памяти</a>,</span> <span class='ib'><a href="/list/236/">Штативы</a>,</span>
+                                <span class='ib'><a href="/list/325/">Аккумуляторы и батарейки</a>,</span> <span
+                                        class="nobr"><span
+                                        class='ib'><a href="/list/316/">Cтудийное оборудование</a>,</span> ...</span></div>
+                        </div>
+                    </td>
+                    <td class='s-catalog-td'>
+                        <div class="s-catalog-block">
+                            <div class="s-catalog-icons"><a href="/list/123/">
+                                <div class="image">
+                                    <svg class="mainmenu-icon mainmenu-icon-k160">
+                                        <use xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k160"></use>
+                                    </svg>
+                                </div>
+                            </a></div>
+                            <div class="s-catalog-subcat"><a href="/list/123/" class='s-catalog-cat'>TV и видео</a><span
+                                    class='ib'><a
+                                    href="/list/160/">Телевизоры</a>,</span> <span class='ib'><a
+                                    href="/list/157/">Мониторы</a>,</span> <span
+                                    class='ib'><a href="/list/264/">Подставки, крепления</a>,</span> <span class='ib'><a
+                                    href="/list/315/">Медиаплееры и ТВ-тюнеры</a>,</span>
+                                <span class='ib'><a href="/list/214/">Проекторы</a>,</span> <span class="nobr"><span
+                                        class='ib'><a
+                                        href="/list/251/">Проекционные экраны</a>,</span> ...</span></div>
+                        </div>
+                        <div class="s-catalog-block">
+                            <div class="s-catalog-icons"><a href="/list/10/">
+                                <div class="image">
+                                    <svg class="mainmenu-icon mainmenu-icon-k239">
+                                        <use xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k239"></use>
+                                    </svg>
+                                </div>
+                            </a></div>
+                            <div class="s-catalog-subcat"><a href="/list/10/" class='s-catalog-cat'>Аудиотехника</a><span
+                                    class='ib'><a
+                                    href="/list/239/">Наушники</a>,</span> <span class='ib'><a
+                                    href="/list/253/">Гарнитуры</a>,</span> <span
+                                    class='ib'><a href="/list/41/">Портативные колонки</a>,</span> <span class='ib'><a
+                                    href="/list/18/">Аудиосистемы</a>,</span>
+                                <span class='ib'><a href="/list/166/">Колонки</a>,</span> <span class='ib'><a
+                                        href="/list/12/">Акустика</a>,</span> <span class='ib'><a href="/list/223/">Hi-Fi и Hi-End</a>,</span>
+                                <span class='ib'><a href="/list/85/">Кабели</a>,</span> <span class="nobr"><span class='ib'><a
+                                        href="/list/809/">Музыкальные инструменты</a>,</span> ...</span></div>
+                        </div>
+                        <div class="s-catalog-block">
+                            <div class="s-catalog-icons"><a href="/list/83/">
+                                <div class="image">
+                                    <svg class="mainmenu-icon mainmenu-icon-k91">
+                                        <use xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k91"></use>
+                                    </svg>
+                                </div>
+                            </a></div>
+                            <div class="s-catalog-subcat"><a href="/list/83/" class='s-catalog-cat'>Крупная бытовая
+                                техника</a><span
+                                    class='ib'><a href="/list/50/">Встраиваемая техника</a>,</span> <span class='ib'><a
+                                    href="/list/94/">Мелкая бытовая техника</a>,</span>
+                                <span class='ib'><a href="/list/91/">Стиральные машины</a>,</span> <span class='ib'><a
+                                        href="/list/149/">Холодильники</a>,</span>
+                                <span class='ib'><a href="/list/84/">Плиты</a>,</span> <span class='ib'><a
+                                        href="/list/216/">Вытяжки</a>,</span>
+                                <span class='ib'><a href="/list/63/">Духовки</a>,</span> <span class="nobr"><span
+                                        class='ib'><a
+                                        href="/list/90/">Пылесосы</a>,</span> ...</span></div>
+                        </div>
+                        <div class="s-catalog-block">
+                            <div class="s-catalog-icons"><a href="/list/94/">
+                                <div class="image">
+                                    <svg class="mainmenu-icon mainmenu-icon-k94">
+                                        <use xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k94"></use>
+                                    </svg>
+                                </div>
+                            </a></div>
+                            <div class="s-catalog-subcat"><a href="/list/94/" class='s-catalog-cat'>Мелкая бытовая
+                                техника</a><span
+                                    class='ib'><a href="/list/95/">Кофеварки и кофемашины</a>,</span> <span class='ib'><a
+                                    href="/list/107/">Электрочайники</a>,</span>
+                                <span class='ib'><a href="/list/97/">Комбайны</a>,</span> <span class='ib'><a
+                                        href="/list/98/">Миксеры и блендеры</a>,</span>
+                                <span class='ib'><a href="/list/99/">Мясорубки</a>,</span> <span class='ib'><a
+                                        href="/list/101/">Соковыжималки</a>,</span>
+                                <span class='ib'><a href="/list/311/">Хлебопечки</a>,</span> <span class='ib'><a
+                                        href="/list/746/">Мультиварки</a>,</span>
+                                <span class="nobr"><span class='ib'><a href="/list/104/">Фены</a>,</span> ...</span></div>
+                        </div>
+                    </td>
+                    <td class='s-catalog-td'>
+                        <div class="s-catalog-block">
+                            <div class="s-catalog-icons"><a href="/list/70/">
+                                <div class="image">
+                                    <svg class="mainmenu-icon mainmenu-icon-k77">
+                                        <use xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k77"></use>
+                                    </svg>
+                                </div>
+                            </a></div>
+                            <div class="s-catalog-subcat"><a href="/list/70/" class='s-catalog-cat'>Климат и
+                                водоснабжение</a><span
+                                    class='ib'><a href="/list/77/">Кондиционеры</a>,</span> <span class='ib'><a
+                                    href="/list/72/">Вентиляторы</a>,</span> <span class='ib'><a href="/list/78/">Обогреватели</a>,</span>
+                                <span class='ib'><a href="/list/218/">Водонагреватели</a>,</span> <span class='ib'><a
+                                        href="/list/229/">Увлажнители</a>,</span>
+                                <span class='ib'><a href="/list/287/">Котлы</a>,</span> <span class='ib'><a
+                                        href="/list/935/">Тепловые насосы</a>,</span>
+                                <span class='ib'><a href="/list/385/">Радиаторы</a>,</span> <span class='ib'><a
+                                        href="/list/314/">Камины</a>,</span> <span class="nobr"><span class='ib'><a
+                                        href="/list/519/">Насосы</a>,</span> ...</span>
+                            </div>
+                        </div>
+                        <div class="s-catalog-block">
+                            <div class="s-catalog-icons"><a href="/list/126/">
+                                <div class="image">
+                                    <svg class="mainmenu-icon mainmenu-icon-k129">
+                                        <use xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k129"></use>
+                                    </svg>
+                                </div>
+                            </a></div>
+                            <div class="s-catalog-subcat"><a href="/list/126/" class='s-catalog-cat'>Детские товары и
+                                игрушки</a><span
+                                    class='ib'><a href="/list/129/">Коляски</a>,</span> <span class='ib'><a
+                                    href="/list/127/">Кроватки</a>,</span> <span class='ib'><a
+                                    href="/list/132/">Пеленальные столики</a>,</span> <span class='ib'><a href="/list/135/">Стульчики для кормления</a>,</span>
+                                <span class='ib'><a href="/list/659/">Подгузники</a>,</span> <span class='ib'><a
+                                        href="/list/339/">Автокресла</a>,</span>
+                                <span class='ib'><a href="/list/604/">Велосипеды</a>,</span> <span class='ib'><a
+                                        href="/list/411/">Игрушки и развлечения</a>,</span>
+                                <span class="nobr"><span class='ib'><a href="/list/704/">РУ модели</a>,</span> ...</span>
+                            </div>
+                        </div>
+                        <div class="s-catalog-block">
+                            <div class="s-catalog-icons"><a href="/list/2/">
+                                <div class="image">
+                                    <svg class="mainmenu-icon mainmenu-icon-k337">
+                                        <use xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k337"></use>
+                                    </svg>
+                                </div>
+                            </a></div>
+                            <div class="s-catalog-subcat"><a href="/list/2/" class='s-catalog-cat'>Авто и мото</a><span
+                                    class='ib'><a
+                                    href="/list/337/">Шины</a>,</span> <span class='ib'><a
+                                    href="/list/338/">Диски</a>,</span> <span
+                                    class='ib'><a href="/list/355/">Видеорегистраторы</a>,</span> <span class='ib'><a
+                                    href="/list/40/">Сигнализации</a>,</span>
+                                <span class='ib'><a href="/list/342/">Аккумуляторы</a>,</span> <span class='ib'><a
+                                        href="/list/723/">Автомасла</a>,</span>
+                                <span class='ib'><a href="/list/339/">Автокресла</a>,</span> <span class="nobr"><span
+                                        class='ib'><a
+                                        href="/list/395/">Магнитолы и звук</a>,</span> ...</span></div>
+                        </div>
+                        <div class="s-catalog-block">
+                            <div class="s-catalog-icons"><a href="/list/336/">
+                                <div class="image">
+                                    <svg class="mainmenu-icon mainmenu-icon-k557">
+                                        <use xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k557"></use>
+                                    </svg>
+                                </div>
+                            </a></div>
+                            <div class="s-catalog-subcat"><a href="/list/336/" class='s-catalog-cat'>Инструмент</a><span
+                                    class='ib'><a
+                                    href="/list/557/">Электроинструмент</a>,</span> <span class='ib'><a
+                                    href="/list/349/">Генераторы</a>,</span> <span class='ib'><a
+                                    href="/list/227/">Сварочные аппараты</a>,</span> <span class='ib'><a href="/list/558/">Строительство</a>,</span>
+                                <span class='ib'><a href="/list/663/">Ручной инструмент</a>,</span> <span class='ib'><a
+                                        href="/list/332/">Садовая техника</a>,</span>
+                                <span class="nobr"><span class='ib'><a href="/list/244/">Лестница</a>,</span> ...</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td class='s-catalog-td'>
+                        <div class="s-catalog-block">
+                            <div class="s-catalog-icons"><a href="/list/245/">
+                                <div class="image">
+                                    <svg class="mainmenu-icon mainmenu-icon-k191">
+                                        <use xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k191"></use>
+                                    </svg>
+                                </div>
+                            </a></div>
+                            <div class="s-catalog-subcat"><a href="/list/245/" class='s-catalog-cat'>Туризм и
+                                рыбалка</a><span
+                                    class='ib'><a href="/list/191/">Палатки</a>,</span> <span class='ib'><a
+                                    href="/list/202/">Спальные мешки</a>,</span> <span class='ib'><a href="/list/365/">Горелки</a>,</span>
+                                <span class='ib'><a href="/list/76/">Фонарики</a>,</span> <span class='ib'><a
+                                        href="/list/407/">Термосы</a>,</span> <span class='ib'><a
+                                        href="/list/148/">Удилища</a>,</span> <span
+                                        class='ib'><a href="/list/409/">Катушки</a>,</span> <span class="nobr"><span
+                                        class='ib'><a
+                                        href="/list/17/">Мангалы и барбекю</a>,</span> ...</span></div>
+                        </div>
+                        <div class="s-catalog-block">
+                            <div class="s-catalog-icons"><a href="/list/373/">
+                                <div class="image">
+                                    <svg class="mainmenu-icon mainmenu-icon-k161">
+                                        <use xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k161"></use>
+                                    </svg>
+                                </div>
+                            </a></div>
+                            <div class="s-catalog-subcat"><a href="/list/373/" class='s-catalog-cat'>Спорт и активный
+                                отдых</a><span
+                                    class='ib'><a href="/list/161/">Велосипеды</a>,</span> <span class='ib'><a
+                                    href="/list/436/">Ролики</a>,</span> <span class='ib'><a href="/list/138/">Самокаты</a>,</span>
+                                <span
+                                        class='ib'><a href="/list/1192/">Гироборды и моноколеса</a>,</span> <span
+                                        class='ib'><a href="/list/435/">Скейтборды</a>,</span>
+                                <span class='ib'><a href="/list/427/">Тренажеры</a>,</span> <span class='ib'><a
+                                        href="/list/429/">Лыжи</a>,</span>
+                                <span class='ib'><a href="/list/431/">Коньки</a>,</span> <span class='ib'><a
+                                        href="/list/695/">Action камеры</a>,</span>
+                                <span class="nobr"><span class='ib'><a
+                                        href="/list/1104/">Спорт питание</a>,</span> ...</span></div>
+                        </div>
+                        <div class="s-catalog-block">
+                            <div class="s-catalog-icons"><a href="/list/747/">
+                                <div class="image">
+                                    <svg class="mainmenu-icon mainmenu-icon-k887">
+                                        <use xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k887"></use>
+                                    </svg>
+                                </div>
+                            </a></div>
+                            <div class="s-catalog-subcat"><a href="/list/747/" class='s-catalog-cat'>Ремонт</a><span
+                                    class='ib'><a
+                                    href="/list/57/">Сантехника</a>,</span> <span class='ib'><a
+                                    href="/list/1208/">Ремонт</a>,</span> <span
+                                    class='ib'><a href="/list/469/">Посуда</a>,</span> <span class='ib'><a
+                                    href="/list/887/">Мебель</a>,</span> <span class='ib'><a href="/list/781/">Матрасы</a>,</span>
+                                <span
+                                        class='ib'><a href="/list/1219/">Декор</a>,</span> <span class='ib'><a
+                                        href="/list/543/">Охрана и умный дом</a>,</span>
+                                <span class='ib'><a href="/list/1014/">Зоотовары</a>,</span> <span class="nobr"><span
+                                        class='ib'><a
+                                        href="/list/759/">Чемоданы</a>,</span> ...</span></div>
+                        </div>
+                        <div class="s-catalog-block">
+                            <div class="s-catalog-icons"><a href="/list/586/">
+                                <div class="image">
+                                    <svg class="mainmenu-icon mainmenu-icon-k595">
+                                        <use xlink:href="/img/svg/mainmenu-icons-sprite.svg#mainmenu_icon_k595"></use>
+                                    </svg>
+                                </div>
+                            </a></div>
+                            <div class="s-catalog-subcat"><a href="/list/586/" class='s-catalog-cat'>Часы, украшения и
+                                аксессуары</a><span class='ib'><a href="/list/595/">Наручные часы</a>,</span> <span
+                                    class='ib'><a
+                                    href="/list/745/">Смарт часы и браслеты</a>,</span> <span class='ib'><a
+                                    href="/list/967/">Ювелирные украшения</a>,</span>
+                                <span class='ib'><a href="/list/1188/">Сувениры</a>,</span> <span class='ib'><a
+                                        href="/list/765/">Женские сумки</a>,</span>
+                                <span class='ib'><a href="/list/869/">Зонты</a>,</span> <span class='ib'><a
+                                        href="/list/759/">Чемоданы</a>,</span>
+                                <span class="nobr"><span class='ib'><a
+                                        href="/list/760/">Сумки дорожные</a>,</span> ...</span></div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="s-width"><!-- PID: 2347 ek_text_4_index.inc -->
+    
+        <div class='s-about'>
+            <div class='s-about-title'>Как пользоваться сайтом?</div>
+            <div style='' class='s-about-div'>
+                <div style='font-size: 17px; padding: 0 0 15px;'>E-Katalog — многофункциональный сервис поиска товаров в
+                    интернет-магазинах и сравнения цен. Он охватывает самые разнообразные категории товаров: электроника,
+                    компьютеры, бытовая техника, автотовары, оборудование для ремонта и строительства, туристическое
+                    снаряжение,
+                    детские товары и многое другое.
+                </div>
+    
+                Наша задача - помочь покупателю быстро и удобно найти самое выгодное предложение. Для тех, кто определяется
+                с
+                выбором, в каждом разделе есть подбор по параметрам и возможность сравнить товары между собой. Доступен и
+                удобный
+                текстовый поиск, позволяющий искать как нужные разделы, так и конкретные товары по названию. А на странице
+                каждой
+                модели есть подробная информация, которая поможет принять решение: описание, технические характеристики,
+                фото и
+                видео, полезные ссылки и отзывы. Там же находится блок «Где купить?» со списком интернет-магазинов, ценами и
+                прямыми ссылками на страницу покупки.<br><br>
+    
+                К системе E-Katalog подключено более 1000 магазинов, данные по которым постоянно обновляются. Благодаря
+                этому вы
+                сможете не только выбрать подходящий товар, но и купить его по самым выгодным условиям!
+            </div>
+        </div>
+    
+    
+    </div>
+    <hr>
+    <div class="s-width">
+        <div class='s-new-models'>
+            <div class='new-arrival-title'><span class='ib'>Новинки</span></div>
+            <table class='new-arrival-table'>
+                <tr>
+                    <td><a href='/REVOLT-MIG-345.htm' class='ib'><u>Revolt MIG 345</u></a><a href='/SCANDILUX-SC07E-PRO.htm'
+                                                                                             class='ib'><u>Scandilux
+                        SC07E-PRO</u></a><a href='/MAGIO-MG-331.htm' class='ib'><u>Magio MG-331</u></a><a
+                            href='/ACEFAST-B4-66W.htm'
+                            class='ib'><u>Acefast B4
+                        66W</u></a><a href='/LG-GM-L844PZ6F.htm' class='ib'><u>LG GM-L844PZ6F</u></a><a
+                            href='/SAMSUNG-AIRISE-AR24BXHCMWKNUA.htm' class='ib'><u>Samsung Airise AR24BXHCMWKNUA</u></a><a
+                            href='/SAMSUNG-AIRISE-AR18BXHCMWKNUA.htm' class='ib'><u>Samsung Airise AR18BXHCMWKNUA</u></a>
+                    </td>
+                    <td><a href='/ACEFAST-B3-66W.htm' class='ib'><u>Acefast B3 66W</u></a><a href='/LORUS-RG292PX9.htm'
+                                                                                             class='ib'><u>Lorus
+                        RG292PX9</u></a><a
+                            href='/SPOKEY-REVERT.htm' class='ib'><u>Spokey Revert</u></a><a href='/ONEPLUS-ACE-RACING.htm'
+                                                                                            class='ib'><u>OnePlus
+                        Ace Racing</u></a><a href='/ACER-SFX16-51G-56UL.htm' class='ib'><u>Acer SFX16-51G-56UL</u></a><a
+                            href='/ELECTROLUX-CARE-500.htm' class='ib'><u>Electrolux Care 500</u></a><a
+                            href='/SAMSUNG-AIRISE-AR12BXHCMWKNUA.htm' class='ib'><u>Samsung Airise AR12BXHCMWKNUA</u></a>
+                    </td>
+                    <td><a href='/REBINER-RWM-335.htm' class='ib'><u>REBINER RWM-335</u></a><a href='/ACEFAST-B2-72W.htm'
+                                                                                               class='ib'><u>Acefast B2
+                        72W</u></a><a href='/PCCOOLER-GT-1-8G.htm' class='ib'><u>PCCooler GT-1 8g</u></a><a
+                            href='/LORUS-RG293PX9.htm'
+                            class='ib'><u>Lorus
+                        RG293PX9</u></a><a href='/ACEFAST-B1-MINI-38W.htm' class='ib'><u>Acefast B1 mini 38W</u></a><a
+                            href='/NAC-LS53-G200-HSD-TX.htm' class='ib'><u>NAC LS53-G200-HSD-TX</u></a><a
+                            href='/SAMSUNG-AIRISE-AR09BXHCMWKNUA.htm' class='ib'><u>Samsung Airise AR09BXHCMWKNUA</u></a>
+                    </td>
+                    <td><a href='/LORUS-RG291PX9.htm' class='ib'><u>Lorus RG291PX9</u></a><a href='/REBINER-RW-350D.htm'
+                                                                                             class='ib'><u>REBINER
+                        RW-350D</u></a><a href='/GRUNDIG-GMS2720.htm' class='ib'><u>Grundig GMS2720</u></a><a
+                            href='/VIALLI-DESIGN-SOHO-28005.htm' class='ib'><u>Vialli Design Soho 28005</u></a><a
+                            href='/VIALLI-DESIGN-SOHO-27992.htm' class='ib'><u>Vialli Design Soho 27992</u></a><a
+                            href='/NAC-LS51-191D-HSD-SE.htm' class='ib'><u>NAC LS51-191D-HSD-SE</u></a><a
+                            href='/REBINER-RW-330DK.htm'
+                            class='ib'><u>REBINER
+                        RW-330DK</u></a></td>
+                    <td><a href='/VIALLI-DESIGN-CARO-27978.htm' class='ib'><u>Vialli Design Caro 27978</u></a><a
+                            href='/HITACHI-R-MX700GVRU0-GBK.htm' class='ib'><u>Hitachi R-MX700GVRU0 GBK</u></a><a
+                            href='/REBINER-RW-330D.htm' class='ib'><u>REBINER RW-330D</u></a><a href='/G3FERRARI-RAPIDO.htm'
+                                                                                                class='ib'><u>G3Ferrari
+                        Rapido</u></a><a
+                            href='/GOTZE---JENSEN-KT300X.htm' class='ib'><u>Gotze & Jensen KT300X</u></a><a
+                            href='/ACEFAST-A9-PD-40W.htm'
+                            class='ib'><u>Acefast A9 PD
+                        40W</u></a><a href='/HOFFNER-HF-6879.htm' class='ib'><u>Hoffner HF-6879</u></a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <hr>
+    <div class="footer">
+        <div class="s-width">
+            <time style="display: none">2022-06-22T17:53:59+03:00</time>
+            <div class="footer-copyright"><span>E-Katalog</span> &mdash; каталог описаний и цен на бытовую и компьютерную
+                технику, электронику, товары для дома и офиса. Наша задача — помочь подобрать и купить нужную модель по
+                лучшей
+                цене в интернет-магазинах. В каталоге можно найти всю необходимую для выбора информацию — сравнение товаров,
+                подбор моделей по параметрам, подробные описания, поиск товара по названию, отзывы пользователей,
+                фотогалереи
+                товаров, глоссарий терминов, обзоры, инструкции, рейтинг товаров, рекомендации экспертов, <a
+                        href="/katalog/">каталог
+                    брендов</a> и многое другое. Перепечатка любых материалов разрешена только с письменного согласия
+                редакции.
+            </div>
+        </div>
+        <div class="footer-links">
+            <div class="s-width">
+                <div class="footer-links-wrapper">
+                    <div class="footer-links-about">
+                        <div class="footer-links-legend">О проекте</div>
+                        <ul class="footer-links-list">
+                            <li><em jsource='https://kz.e-katalog.com/mtools/mui_get_text.php?pat_=kak_nam_pozvonit'
+                                    jtype='click'
+                                    jid='h3heujw1m0v' jsub='Y' jcache='Y' jwidth='400' jcontainer='body'>Как нам
+                                позвонить?</em></li>
+                            <li><em jsource='https://kz.e-katalog.com/mtools/mui_get_text.php?pat_=razmestit_pais'
+                                    jtype='click'
+                                    jsub='Y' jcache='Y' jwidth='400' jcontainer='body'>Размещение прайс-листов</em></li>
+                            <li><a class="policy-link" href="/ek-policy.php">Конфиденциальность</a></li>
+                            <li><a class="forum-link" href="#" link="/ek-forum.php?katalog_=1">Вопросы и пожелания по
+                                сайту</a></li>
+                            <li><span class="help-and-share"><em jtype='click'
+                                                                 jsource='https://kz.e-katalog.com/mtools/mui_help_and_share.php'
+                                                                 jtarget='@modal'
+                                                                 jid='mui_help_and_share'>Помочь проекту</em></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-in-countries">
+                        <div class="footer-links-legend">Мы в других странах</div>
+                        <ul class="footer-links-list">
+                            <li><a href="https://ek.ua">Украина</a></li>
+                            <li><a href="https://e-catalog.co.uk">Великобритания</a></li>
+                            <li><a href="https://e-catalog.com">США</a></li>
+                            <li><a href="https://e-katalog.pl">Польша</a></li>
+                            <li><a href="https://kz.e-katalog.com">Казахстан</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-social-app">
+                        <div class="footer-links-legend">Следите за нами в приложениях и соцсетях</div>
+                        <div class="footer-links-social-app-wrapper">
+                            <div class="footer-links-app"><a href="#"
+                                                             link="https://play.google.com/store/apps/details?id=net.nadavi.ekmobile"
+                                                             onclick="trackEvent('Install Mobile App', 'Google Play', _katalog_name_);"
+                                                             title="Google Play" target="_blank">
+                                <svg class="footer-links-app-icon google-play">
+                                    <use xlink:href="/img/svg/footer-links-social-app.svg#google_play"></use>
+                                </svg>
+                            </a><a href="#" link="https://itunes.apple.com/ua/app/e-katalog/id1457178657?l=ru&mt=8"
+                                   onclick="trackEvent('Install Mobile App', 'App Store', _katalog_name_);"
+                                   title="App Store"
+                                   target="_blank">
+                                <svg class="footer-links-app-icon app-store">
+                                    <use xlink:href="/img/svg/footer-links-social-app.svg#app_store"></use>
+                                </svg>
+                            </a></div>
+                            <div class="footer-links-social"><a href="#" link="https://www.youtube.com/c/ekatalogofficial/"
+                                                                title="YouTube" target="_blank">
+                                <svg class="footer-links-social-icon youtube">
+                                    <use xlink:href="/img/svg/footer-links-social-app.svg#youtube"></use>
+                                </svg>
+                            </a><a href="#"
+                                   link="https://www.facebook.com/ekatalog.official/?cgi_idsr_=91900&utm_source=facebook&utm_campaign=social_facebook"
+                                   title="Facebook" target="_blank">
+                                <svg class="footer-links-social-icon facebook">
+                                    <use xlink:href="/img/svg/footer-links-social-app.svg#facebook"></use>
+                                </svg>
+                            </a><a href="#"
+                                   link="https://www.instagram.com/ekatalog.official/?cgi_idsr_=91901&utm_source=instagram&utm_campaign=social_instagram"
+                                   title="Instagram" target="_blank">
+                                <svg class="footer-links-social-icon instagram">
+                                    <use xlink:href="/img/svg/footer-links-social-app.svg#instagram"></use>
+                                </svg>
+                            </a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-links-dev">
+                </div>
+                <div class="footer-error-complaint-wrapper">
+                    <div class="footer-error-complaint">Нашли ошибку на этой странице? Выделите ее и нажмите Ctrl+Enter
+                    </div>
+                    <div class="dark-mode-footer-links-block">
+                        <div class="dark-mode-switch" jtype="click"
+                             jsource="https://kz.e-katalog.com/mtools/mui_save_s_params.php?key_=DARK_MODE_DESKTOP&value_=Y&refresh_=1"
+                             jtarget="h3heujw3d4v">
+                            <div id="h3heujw3d4v"></div>
+                            <span class="dark-mode-switch-label">Тёмная версия</span>
+                            <svg class="dark-mode-switch-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 18">
+                                <rect width="24.27" height="13" x="5.73" y="2.5" fill="#d6d6d9" rx="6.5"
+                                      transform="rotate(180 17.865 9)"/>
+                                <circle cx="9" cy="9" r="9" fill="#b9b9b9"/>
+                                <path fill="#777779" fill-rule="evenodd"
+                                      d="M11.24 11.11a3.66 3.66 0 0 1-2.09-6.64 4.53 4.53 0 1 0 4.27 5.94 3.61 3.61 0 0 1-2.18.7Z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class='bottom-goods-menu'>
+        <ul class="bottom-goods-bar fl-r">
+            <li id="compared_goods_toolbar" class="goods-bar-section" data-hidden="true" style="display: none;">
+                <a href='#' target='_blank'>
+                    <span class="goods-bar-ico"></span>
+                    <span>Сравнить</span>
+                    <span id="num_bm_compared"></span>
+                </a>
+            </li>
+    
+            <li id="bar_bm_compared" class="goods-bar-section">
+                <span class="goods-bar-ico"></span>
+                <span id="name_bm_compared">Сравнение</span>
+            </li>
+    
+            <li id="bar_bm_marked" class="goods-bar-section">
+                <span class="goods-bar-ico"></span>
+                <span id="name_bm_marked">Закладки</span>
+                <span id="num_bm_marked"></span>
+            </li>
+    
+            <li id="bar_bm_visited" class="goods-bar-section">
+                <span class="goods-bar-ico"></span>
+                <span id="name_bm_visited">История</span>
+                <span id="num_bm_visited"></span>
+            </li>
+        </ul>
+    
+        <div class="clr"></div>
+    
+        <div style="display: none;" id="content_bm_visited" class='bottom-goods-content'>
+            <table width="100%" height="100%">
+                <tr valign="top">
+                    <td class='gt-left-arr'>
+                        <span class="arr-back-disabled" id="arr_back_bm_visited">
+                            <svg class="arr-back-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 17">
+                                <path
+                                        d="M7.97001.680059h-.01c-.25 0-.5.099999-.68.279999L.610014 7.72006c-.09.09-.159999.19-.199999.31-.09.23-.09.49 0 .72.05.12.119999.22.199999.31L7.31001 15.7801c.18.18.41.27.66.28.24 0 .48-.1.66-.27.37-.37.37-.97 0-1.33l-5.1-5.13004H17.45c.52 0 .94-.42.94-.94s-.42-.94-.94-.94H3.54001l5.1-5.13c.36-.37.36-.96 0-1.330001-.17-.18-.42-.280001-.66-.280001l-.01-.029999Z"/>
+                            </svg>
+                        </span>
+                    </td>
+                    <td id="td_container_bm_visited" class='touchcarousel' style="text-align: center; width:100%;">
+                        <div id="mask_bm_visited" class="goods-menu-mask" style="position:relative; overflow:hidden;">
+                            <div id="stripe_bm_visited" style="position:absolute; top:0; left:0; height: 100%;"
+                                 class="touchcarousel-container"></div>
+                        </div>
+                    </td>
+                    <td class='gt-right-arr'>
+                        <span class="arr-next-disabled" id="arr_next_bm_visited">
+                            <svg class="arr-next-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 17">
+                                <path
+                                        d="M10.7601 16.05h.01c.25 0 .5-.1.68-.28l6.67-6.75996c.09-.09.16-.19.2-.31.09-.23.09-.49 0-.72-.05-.12-.12-.22-.2-.31l-6.7-6.719996c-.18-.18-.41-.27-.66-.28-.24 0-.48.099999-.66.269999-.37001.369997-.37001.969997 0 1.329997l5.1 5.13H1.28009c-.520003 0-.940002.42-.940002.94s.419999.94.940002.94H15.1901l-5.1 5.12996c-.36001.37-.36001.96 0 1.33.17.18.42.28.66.28l.01.03Z"/>
+                            </svg>
+                        </span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    
+        <div style="display: none;" id="content_bm_compared" class='bottom-goods-content'>
+            <table width="100%" height="100%">
+                <tr valign="top">
+                    <td class='gt-left-arr'>
+    					<span class="arr-back-disabled" id="arr_back_bm_compared">
+                            <svg class="arr-back-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 17">
+                                <path
+                                        d="M7.97001.680059h-.01c-.25 0-.5.099999-.68.279999L.610014 7.72006c-.09.09-.159999.19-.199999.31-.09.23-.09.49 0 .72.05.12.119999.22.199999.31L7.31001 15.7801c.18.18.41.27.66.28.24 0 .48-.1.66-.27.37-.37.37-.97 0-1.33l-5.1-5.13004H17.45c.52 0 .94-.42.94-.94s-.42-.94-.94-.94H3.54001l5.1-5.13c.36-.37.36-.96 0-1.330001-.17-.18-.42-.280001-.66-.280001l-.01-.029999Z"/>
+                            </svg>
+                        </span>
+                    </td>
+                    <td width="100%" id="td_container_bm_compared" class='touchcarousel'
+                        style="text-align: center; width:100%;">
+                        <div id="mask_bm_compared" class="goods-menu-mask" style="position:relative; overflow:hidden;">
+                            <div id="stripe_bm_compared" style="position:absolute; top:0; left:0; height: 100%;"
+                                 class="touchcarousel-container">
+                            </div>
+                        </div>
+                    </td>
+                    <td class='gt-right-arr'>
+    					<span class="arr-next-disabled" id="arr_next_bm_compared">
+                            <svg class="arr-next-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 17">
+                                <path
+                                        d="M10.7601 16.05h.01c.25 0 .5-.1.68-.28l6.67-6.75996c.09-.09.16-.19.2-.31.09-.23.09-.49 0-.72-.05-.12-.12-.22-.2-.31l-6.7-6.719996c-.18-.18-.41-.27-.66-.28-.24 0-.48.099999-.66.269999-.37001.369997-.37001.969997 0 1.329997l5.1 5.13H1.28009c-.520003 0-.940002.42-.940002.94s.419999.94.940002.94H15.1901l-5.1 5.12996c-.36001.37-.36001.96 0 1.33.17.18.42.28.66.28l.01.03Z"/>
+                            </svg>
+                        </span>
+                    </td>
+                </tr>
+    
+            </table>
+        </div>
+    
+        <div style="display: none;" id="content_bm_marked" class='bottom-goods-content'>
+            <table width="100%" height="100%">
+                <tr valign="top">
+                    <td class='gt-left-arr'>
+                        <span class="arr-back-disabled" id="arr_back_bm_marked">
+                            <svg class="arr-back-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 17">
+                                <path
+                                        d="M7.97001.680059h-.01c-.25 0-.5.099999-.68.279999L.610014 7.72006c-.09.09-.159999.19-.199999.31-.09.23-.09.49 0 .72.05.12.119999.22.199999.31L7.31001 15.7801c.18.18.41.27.66.28.24 0 .48-.1.66-.27.37-.37.37-.97 0-1.33l-5.1-5.13004H17.45c.52 0 .94-.42.94-.94s-.42-.94-.94-.94H3.54001l5.1-5.13c.36-.37.36-.96 0-1.330001-.17-.18-.42-.280001-.66-.280001l-.01-.029999Z"/>
+                            </svg>
+                        </span>
+                    </td>
+                    <td id="td_container_bm_marked" class='touchcarousel' style="text-align: center; width:100%; ">
+                        <div id="mask_bm_marked" class="goods-menu-mask" style="position:relative; overflow:hidden;">
+                            <div id="stripe_bm_marked" style="position:absolute; top:0; left:0; height: 100%;"
+                                 class="touchcarousel-container"></div>
+                        </div>
+                    </td>
+                    <td class='gt-right-arr'>
+                        <span class="arr-next-disabled" id="arr_next_bm_marked">
+                            <svg class="arr-next-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 17">
+                                <path
+                                        d="M10.7601 16.05h.01c.25 0 .5-.1.68-.28l6.67-6.75996c.09-.09.16-.19.2-.31.09-.23.09-.49 0-.72-.05-.12-.12-.22-.2-.31l-6.7-6.719996c-.18-.18-.41-.27-.66-.28-.24 0-.48.099999-.66.269999-.37001.369997-.37001.969997 0 1.329997l5.1 5.13H1.28009c-.520003 0-.940002.42-.940002.94s.419999.94.940002.94H15.1901l-5.1 5.12996c-.36001.37-.36001.96 0 1.33.17.18.42.28.66.28l.01.03Z"/>
+                            </svg>
+                        </span>
+                    </td>
+                    <td class="gt-sum__divider" style="height: 100%; padding: 20px 0;">
+                        <div class="posr" style="height: 100%; width: 1px;"></div>
+                    </td>
+                    <td class="gt-sum">
+                        <div class="gt-sum__count">
+                            <span id="sum_cnt_bm_marked">0</span>
+                            <span id="sum_end_bm_marked">товаров</span>
+                            <span>на сумму:</span>
+                        </div>
+    
+                        <div class="gt-sum__price-wrap">от <span id="sum_bm_marked" class="gt-sum__price"></span> тг.</div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    
+    
+    <script src="dist/js/lib.js?v=14.0.0"></script>
+    <script src="dist/js/main.js?v=14.0.0"></script>
+</body>
+</html>
